@@ -1,0 +1,1307 @@
+Date: 06/03/2020 15:26:43
+===============
+Quantum Package
+===============
+
+Git Commit: Python2 in resultsFile
+Git Date  : Wed Feb 12 15:31:40 2020 -0600
+Git SHA1  : a2794cbb33cae2152fefd67133f510d388a44c77
+EZFIO Dir : he.ezfio
+
+
+Task server running : tcp://127.0.1.1:41279
+* mo_num                                                        30
+.. >>>>> [ IO READ: mo_class ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005131 GB ] [ VIRT MEM :       0.253914 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000437  s ] [ CPU  TIME:       0.019643  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005131 GB ] [ VIRT MEM :       0.253914 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.001000  s ] [ CPU  TIME:       0.020407  s ] <<<<< ..
+
+* N_int                                                          1
+ MO map initialized:                108345
+.. >>>>> [ IO READ: io_ao_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005131 GB ] [ VIRT MEM :       0.253914 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.001616  s ] [ CPU  TIME:       0.021162  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005131 GB ] [ VIRT MEM :       0.253914 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.002048  s ] [ CPU  TIME:       0.021736  s ] <<<<< ..
+
+ AO map initialized :                198765
+.. >>>>> [ IO READ: ao_power ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005131 GB ] [ VIRT MEM :       0.253914 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.002726  s ] [ CPU  TIME:       0.024588  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_prim_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005131 GB ] [ VIRT MEM :       0.253914 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.003183  s ] [ CPU  TIME:       0.025253  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_expo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005131 GB ] [ VIRT MEM :       0.253914 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.003800  s ] [ CPU  TIME:       0.030338  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_coef ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005131 GB ] [ VIRT MEM :       0.253914 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.004394  s ] [ CPU  TIME:       0.032474  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_nucl ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005993 GB ] [ VIRT MEM :       0.253914 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.005063  s ] [ CPU  TIME:       0.033560  s ] <<<<< ..
+
+ Providing the AO integrals
+.. >>>>> [ IO READ: nucl_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.006851 GB ] [ VIRT MEM :       0.402485 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.018071  s ] [ CPU  TIME:       0.071927  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_label ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.006851 GB ] [ VIRT MEM :       0.402485 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.018459  s ] [ CPU  TIME:       0.072254  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_charge ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.006851 GB ] [ VIRT MEM :       0.402485 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.018781  s ] [ CPU  TIME:       0.072516  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.006851 GB ] [ VIRT MEM :       0.402485 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.019092  s ] [ CPU  TIME:       0.072766  s ] <<<<< ..
+
+
+Nuclear Coordinates (Angstroms)
+===============================
+
+================ ============ ============ ============ ============
+      Atom          Charge          X            Y            Z 
+================ ============ ============ ============ ============
+He                   2.000000     0.000000     0.000000     0.000000
+================ ============ ============ ============ ============
+
+.. >>>>> [ IO READ: ao_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.006851 GB ] [ VIRT MEM :       0.402485 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.032606  s ] [ CPU  TIME:       0.086329  s ] <<<<< ..
+
+ Sorting the map
+ AO integrals provided:
+  Size of AO map :           0.31346893310546875      MB
+  Number of AO integrals :                27193
+  cpu  time :  0.21723100000000001      s
+  wall time :  0.13933588799955032      s  ( x    1.5590455776956837       )
+ 
+ AO -> MO integrals transformation
+ ---------------------------------
+ 
+ Read  mo_coef
+.. >>>>> [ IO READ: mo_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.008423 GB ] [ VIRT MEM :       0.465523 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.146571  s ] [ CPU  TIME:       0.258973  s ] <<<<< ..
+
+ Buffers :    1.20403290     MB / core
+ Molecular integrals provided:
+  Size of MO map              1.0115814208984375      MB
+  Number of MO integrals:                 52646
+  cpu  time :  0.56532300000000002      s
+  wall time :  0.24268292499982635      s  ( x    2.3294716758519560      )
+.. >>>>> [ IO READ: n_states ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.034149 GB ] [ VIRT MEM :       0.591423 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.393399  s ] [ CPU  TIME:       0.840900  s ] <<<<< ..
+
+ * mo_label          Canonical
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.034149 GB ] [ VIRT MEM :       0.591423 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.393682  s ] [ CPU  TIME:       0.841567  s ] <<<<< ..
+
+* Number of determinants                                         1
+* Dimension of the psi arrays                               100000
+.. >>>>> [ IO READ: elec_beta_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.034645 GB ] [ VIRT MEM :       0.592171 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.394693  s ] [ CPU  TIME:       0.844220  s ] <<<<< ..
+
+.. >>>>> [ IO READ: elec_alpha_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.034645 GB ] [ VIRT MEM :       0.592171 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.394960  s ] [ CPU  TIME:       0.844789  s ] <<<<< ..
+
+.. >>>>> [ IO READ: do_pt2 ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.036156 GB ] [ VIRT MEM :       0.593662 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.400960  s ] [ CPU  TIME:       0.868050  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.036156 GB ] [ VIRT MEM :       0.593662 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.402778  s ] [ CPU  TIME:       0.871310  s ] <<<<< ..
+
+.. >>>>> [ IO READ: selection_factor ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.036156 GB ] [ VIRT MEM :       0.593662 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.403147  s ] [ CPU  TIME:       0.874680  s ] <<<<< ..
+
+.. >>>>> [ IO READ: n_det_max ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.036156 GB ] [ VIRT MEM :       0.595154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.403535  s ] [ CPU  TIME:       0.875236  s ] <<<<< ..
+
+.. >>>>> [ IO READ: s2_eig ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.036407 GB ] [ VIRT MEM :       0.595154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.404236  s ] [ CPU  TIME:       0.881534  s ] <<<<< ..
+
+.. >>>>> [ IO READ: variance_max ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.036407 GB ] [ VIRT MEM :       0.595154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.404585  s ] [ CPU  TIME:       0.882016  s ] <<<<< ..
+
+.. >>>>> [ IO READ: distributed_davidson ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.036407 GB ] [ VIRT MEM :       0.595154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.405033  s ] [ CPU  TIME:       0.882651  s ] <<<<< ..
+
+.. >>>>> [ IO READ: n_det_max_full ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.036407 GB ] [ VIRT MEM :       0.595154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.405382  s ] [ CPU  TIME:       0.883131  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_integrals_e_n ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.041058 GB ] [ VIRT MEM :       2.470573 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.461871  s ] [ CPU  TIME:       1.099859  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_e_n ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.041058 GB ] [ VIRT MEM :       2.470573 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.462358  s ] [ CPU  TIME:       1.100559  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.041058 GB ] [ VIRT MEM :       2.470573 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.462903  s ] [ CPU  TIME:       1.101425  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.041058 GB ] [ VIRT MEM :       2.470573 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.463258  s ] [ CPU  TIME:       1.101917  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_one_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.041058 GB ] [ VIRT MEM :       2.470573 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.464987  s ] [ CPU  TIME:       1.113123  s ] <<<<< ..
+
+ Providing the one-electron integrals
+.. >>>>> [ IO READ: do_pseudo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.041058 GB ] [ VIRT MEM :       2.470573 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.465609  s ] [ CPU  TIME:       1.113939  s ] <<<<< ..
+
+.. >>>>> [ IO READ: pt2_relative_error ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.041058 GB ] [ VIRT MEM :       2.470573 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.466155  s ] [ CPU  TIME:       1.114805  s ] <<<<< ..
+
+.. >>>>> [ IO READ: correlation_energy_ratio_max ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.041058 GB ] [ VIRT MEM :       2.470573 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.466511  s ] [ CPU  TIME:       1.115300  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.041058 GB ] [ VIRT MEM :       2.470573 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.466823  s ] [ CPU  TIME:       1.115748  s ] <<<<< ..
+
+ Read  n_states_diag
+.. >>>>> [ IO READ: io_nuclear_repulsion ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.041058 GB ] [ VIRT MEM :       2.470573 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.467174  s ] [ CPU  TIME:       1.116234  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.041058 GB ] [ VIRT MEM :       2.470573 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.467412  s ] [ CPU  TIME:       1.116581  s ] <<<<< ..
+
+* Nuclear repulsion energy                           0.000000000000000    
+.. >>>>> [ IO READ: weight_one_e_dm ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.041058 GB ] [ VIRT MEM :       2.470573 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.467808  s ] [ CPU  TIME:       1.117116  s ] <<<<< ..
+
+.. >>>>> [ IO READ: pt2_max ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.045383 GB ] [ VIRT MEM :       2.474682 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.474172  s ] [ CPU  TIME:       1.145076  s ] <<<<< ..
+
+.. >>>>> [ IO READ: threshold_generators ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.045383 GB ] [ VIRT MEM :       2.474682 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.474537  s ] [ CPU  TIME:       1.145585  s ] <<<<< ..
+
+* Target maximum memory (GB)                                  2000
+* Number of occupation patterns                                  1
+
+.. >>>>> [ RES  MEM :       0.045383 GB ] [ VIRT MEM :       2.476921 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.475026  s ] [ CPU  TIME:       1.146266  s ] <<<<< ..
+
+.. >>>>> [ IO READ: threshold_davidson ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.045383 GB ] [ VIRT MEM :       2.476921 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.475389  s ] [ CPU  TIME:       1.146779  s ] <<<<< ..
+
+ Diagonalization of H using Lapack
+.. >>>>> [ IO READ: only_expected_s2 ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.045383 GB ] [ VIRT MEM :       2.476921 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.475806  s ] [ CPU  TIME:       1.147356  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.045383 GB ] [ VIRT MEM :       2.476921 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.476142  s ] [ CPU  TIME:       1.154206  s ] <<<<< ..
+
+* Energy of state    1                              -2.861514227229792    
+* S^2 of state    1                                  0.000000000000000    
+* Saved determinants                                             1
+--------------------------------------------------------------------------------
+* Number of unique beta determinants                             1
+* Number of unique alpha determinants                            1
+.. >>>>> [ IO READ: weight_selection ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.045788 GB ] [ VIRT MEM :       2.480263 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.481075  s ] [ CPU  TIME:       1.171133  s ] <<<<< ..
+
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+.. >>>>> [ IO READ: pseudo_sym ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.045788 GB ] [ VIRT MEM :       2.480267 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.481525  s ] [ CPU  TIME:       1.171714  s ] <<<<< ..
+
+.. >>>>> [ IO READ: h0_type ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.045788 GB ] [ VIRT MEM :       2.480267 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.481971  s ] [ CPU  TIME:       1.174046  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.045788 GB ] [ VIRT MEM :       2.480267 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.482410  s ] [ CPU  TIME:       1.174681  s ] <<<<< ..
+
+* Number of generators                                           1
+
+.. >>>>> [ RES  MEM :       0.045788 GB ] [ VIRT MEM :       2.480267 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.482891  s ] [ CPU  TIME:       1.175433  s ] <<<<< ..
+
+* Number of selectors                                            1
+* Number of comb teeth                                           1
+* Number of core     MOs                                         0
+* pt2_n_tasks_max                                                1
+* PT2 Energy denominator                            -2.861514227229792    
+* Estimated memory/thread (Gb)                      0.1043081283569336E-06
+* Number of virtual  MOs                                         0
+* Number of active   MOs                                        30
+ Active MOs:
+           1           2           3           4           5           6           7           8           9          10          11          12          13          14          15          16          17          18          19          20          21          22          23          24          25          26          27          28          29          30
+* Number of inactive MOs                                         0
+.. >>>>> [ IO READ: pert_2rdm ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.046623 GB ] [ VIRT MEM :       2.483913 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.498092  s ] [ CPU  TIME:       1.222533  s ] <<<<< ..
+
+ n_d =            4
+.. >>>>> [ IO READ: pruning ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.046711 GB ] [ VIRT MEM :       2.483913 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.512496  s ] [ CPU  TIME:       1.241005  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.046711 GB ] [ VIRT MEM :       2.483913 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.520392  s ] [ CPU  TIME:       1.270445  s ] <<<<< ..
+
+* Number of generators                                           1
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* Saved determinants                                             5
+* Number of unique beta determinants                             5
+* Number of unique alpha determinants                            5
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+
+.. >>>>> [ RES  MEM :       0.046711 GB ] [ VIRT MEM :       2.483925 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.523150  s ] [ CPU  TIME:       1.278243  s ] <<<<< ..
+
+* Number of selectors                                            1
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+* Correlation ratio                                 0.5288830399685147E-12
+ 
+Summary at N_det =            5
+-----------------------------------
+ 
+# ============ =============================
+                     State      1
+# ============ =============================
+# E              -2.86151423
+# PT2            -0.04232817     0.00000000
+# rPT2           -0.04198369     0.00000000
+#
+# E+PT2          -2.90384240     0.00000000
+# E+rPT2         -2.90349792     0.00000000
+# ============ =============================
+ 
+ N_det             =            5
+ N_states          =            1
+ N_sop             =            5
+ 
+ * State            1
+ < S^2 >         =    0.0000000000000000     
+ E               =   -2.8615142272297920     
+ Variance        =   0.36562181433446062     
+ PT norm         =    9.0581957102777430E-002
+ PT2             =   -4.2328167890801960E-002
+ rPT2            =   -4.1983687912951900E-002
+ E+PT2            =   -2.9038423951205941       +/-    0.0000000000000000     
+ E+rPT2           =   -2.9034979151427440       +/-    0.0000000000000000     
+ 
+ -----
+.. >>>>> [ IO READ: io_mo_integrals_pseudo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.046711 GB ] [ VIRT MEM :       2.483925 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.524620  s ] [ CPU  TIME:       1.283901  s ] <<<<< ..
+
+ Energy components
+ =================
+ 
+ Vnn  : Nucleus-Nucleus   potential energy
+ Ven  : Electron-Nucleus  potential energy
+ Vee  : Electron-Electron potential energy
+ Vecp : Potential energy of the pseudo-potentials
+ T    : Electronic kinetic energy
+ 
+ State            1
+ ---------
+ 
+ Vnn  =    0.0000000000000000     
+ Ven  =   -6.7488446564573410     
+ Vee  =    1.0258167086450367     
+ Vecp =    0.0000000000000000     
+ T    =    2.8615137205825123     
+ 
+ 
+.. >>>>> [ IO READ: energy_iterations ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.046711 GB ] [ VIRT MEM :       2.483925 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.526301  s ] [ CPU  TIME:       1.290379  s ] <<<<< ..
+
+.. >>>>> [ IO READ: pt2_iterations ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.046711 GB ] [ VIRT MEM :       2.483925 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.526914  s ] [ CPU  TIME:       1.291347  s ] <<<<< ..
+
+.. >>>>> [ IO READ: n_det_iterations ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.046711 GB ] [ VIRT MEM :       2.483925 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.527489  s ] [ CPU  TIME:       1.293424  s ] <<<<< ..
+
+ Diagonalization of H using Lapack
+
+.. >>>>> [ RES  MEM :       0.046711 GB ] [ VIRT MEM :       2.483925 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.535785  s ] [ CPU  TIME:       1.322655  s ] <<<<< ..
+
+* Energy of state    1                              -2.874844981123934    
+* S^2 of state    1                                  0.000000000000000    
+* Saved determinants                                             5
+--------------------------------------------------------------------------------
+* Number of unique beta determinants                             5
+* Number of unique alpha determinants                            5
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+
+.. >>>>> [ RES  MEM :       0.046711 GB ] [ VIRT MEM :       2.483925 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.540648  s ] [ CPU  TIME:       1.344368  s ] <<<<< ..
+
+* Number of generators                                           5
+
+.. >>>>> [ RES  MEM :       0.046711 GB ] [ VIRT MEM :       2.483925 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.540958  s ] [ CPU  TIME:       1.344778  s ] <<<<< ..
+
+* Number of selectors                                            5
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* PT2 Energy denominator                            -2.874844981123934    
+
+.. >>>>> [ RES  MEM :       0.049274 GB ] [ VIRT MEM :       2.485786 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.547557  s ] [ CPU  TIME:       1.366863  s ] <<<<< ..
+
+* Number of generators                                           5
+
+.. >>>>> [ RES  MEM :       0.049274 GB ] [ VIRT MEM :       2.485786 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.547872  s ] [ CPU  TIME:       1.367282  s ] <<<<< ..
+
+* Number of selectors                                            5
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* Number of tasks                                                5
+* Number of fragmented tasks                                     0
+* Number of threads for PT2                                      4
+* Memory (Gb)                                       0.3110002726316452E-04
+========== ================= =========== =============== =============== =================
+ Samples        Energy        Stat. Err     Variance          Norm          Seconds      
+========== ================= =========== =============== =============== =================
+         4     -2.9038113216    0.00        0.3019590365    0.0044624514      0.0030          
+========== ================= =========== =============== =============== =================
+ n_d =            5
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+
+.. >>>>> [ RES  MEM :       0.050575 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.578487  s ] [ CPU  TIME:       1.456802  s ] <<<<< ..
+
+* Number of generators                                           5
+
+.. >>>>> [ RES  MEM :       0.050575 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.578712  s ] [ CPU  TIME:       1.457314  s ] <<<<< ..
+
+* Number of selectors                                            5
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+* Correlation ratio                                 0.3161313080253554    
+ 
+Summary at N_det =            5
+-----------------------------------
+ 
+# ============ =============================
+                     State      1
+# ============ =============================
+# E              -2.87484498
+# PT2            -0.02896634     0.00000000
+# rPT2           -0.02883765     0.00000000
+#
+# E+PT2          -2.90381132     0.00000000
+# E+rPT2         -2.90368263     0.00000000
+# ============ =============================
+ 
+ N_det             =            5
+ N_states          =            1
+ N_sop             =            5
+ 
+ * State            1
+ < S^2 >         =    0.0000000000000000     
+ E               =   -2.8748449811239345     
+ Variance        =   0.30195903646927286     
+ PT norm         =    6.6801581957242701E-002
+ PT2             =   -2.8966340466784146E-002
+ rPT2            =   -2.8837653839420198E-002
+ E+PT2            =   -2.9038113215907186       +/-    0.0000000000000000     
+ E+rPT2           =   -2.9036826349633547       +/-    0.0000000000000000     
+ 
+ -----
+ Energy components
+ =================
+ 
+ State            1
+ ---------
+ 
+ Vnn  =    0.0000000000000000     
+ Ven  =   -6.7369318669840004     
+ Vee  =   0.99812557309871242     
+ Vecp =    0.0000000000000000     
+ T    =    2.8639613127613535     
+ 
+ 
+
+Extrapolated energies
+------------------------
+
+ 
+ State            1
+ 
+ =========== ===================
+ minimum PT2 Extrapolated energy
+ =========== ===================
+    -0.0420         -2.90408784
+ =========== ===================
+ 
+ Diagonalization of H using Lapack
+
+.. >>>>> [ RES  MEM :       0.050880 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.592459  s ] [ CPU  TIME:       1.510498  s ] <<<<< ..
+
+* Energy of state    1                              -2.887079626989865    
+* S^2 of state    1                                 0.9629649721936184E-34
+* Saved determinants                                            10
+--------------------------------------------------------------------------------
+* Number of unique beta determinants                             8
+* Number of unique alpha determinants                            8
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+
+.. >>>>> [ RES  MEM :       0.050880 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.597095  s ] [ CPU  TIME:       1.527900  s ] <<<<< ..
+
+* Number of generators                                          10
+
+.. >>>>> [ RES  MEM :       0.050880 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.597299  s ] [ CPU  TIME:       1.528403  s ] <<<<< ..
+
+* Number of selectors                                           10
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* PT2 Energy denominator                            -2.887079626989865    
+
+.. >>>>> [ RES  MEM :       0.050880 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.603101  s ] [ CPU  TIME:       1.548060  s ] <<<<< ..
+
+* Number of generators                                          10
+
+.. >>>>> [ RES  MEM :       0.050880 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.603328  s ] [ CPU  TIME:       1.548560  s ] <<<<< ..
+
+* Number of selectors                                           10
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* Number of tasks                                               10
+* Number of fragmented tasks                                     0
+* Number of threads for PT2                                      4
+* Memory (Gb)                                       0.3324709832668305E-04
+========== ================= =========== =============== =============== =================
+ Samples        Energy        Stat. Err     Variance          Norm          Seconds      
+========== ================= =========== =============== =============== =================
+         9     -2.9033607215    0.00        0.2216092629    0.0018151307      0.0034          
+========== ================= =========== =============== =============== =================
+ n_d =           10
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+
+.. >>>>> [ RES  MEM :       0.050888 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.635153  s ] [ CPU  TIME:       1.638529  s ] <<<<< ..
+
+* Number of generators                                          10
+
+.. >>>>> [ RES  MEM :       0.050888 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.635456  s ] [ CPU  TIME:       1.638944  s ] <<<<< ..
+
+* Number of selectors                                           10
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+* Correlation ratio                                 0.6113638598324109    
+ 
+Summary at N_det =           10
+-----------------------------------
+ 
+# ============ =============================
+                     State      1
+# ============ =============================
+# E              -2.88707963
+# PT2            -0.01628109     0.00000000
+# rPT2           -0.01625160     0.00000000
+#
+# E+PT2          -2.90336072     0.00000000
+# E+rPT2         -2.90333122     0.00000000
+# ============ =============================
+ 
+ N_det             =           10
+ N_states          =            1
+ N_sop             =            9
+ 
+ * State            1
+ < S^2 >         =    9.6296497219361835E-035
+ E               =   -2.8870796269898649     
+ Variance        =   0.22160926289802335     
+ PT norm         =    4.2604350133241133E-002
+ PT2             =   -1.6281094484246639E-002
+ rPT2            =   -1.6251595714748907E-002
+ E+PT2            =   -2.9033607214741117       +/-    0.0000000000000000     
+ E+rPT2           =   -2.9033312227046140       +/-    0.0000000000000000     
+ 
+ -----
+ Energy components
+ =================
+ 
+ State            1
+ ---------
+ 
+ Vnn  =    0.0000000000000000     
+ Ven  =   -6.7365087670716388     
+ Vee  =   0.97436579626742192     
+ Vecp =    0.0000000000000000     
+ T    =    2.8750633438143520     
+ 
+ 
+
+Extrapolated energies
+------------------------
+
+ 
+ State            1
+ 
+ =========== ===================
+ minimum PT2 Extrapolated energy
+ =========== ===================
+    -0.0288         -2.90287747
+    -0.0420         -2.90332032
+ =========== ===================
+ 
+ Diagonalization of H using Lapack
+
+.. >>>>> [ RES  MEM :       0.050888 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.651301  s ] [ CPU  TIME:       1.698213  s ] <<<<< ..
+
+* Energy of state    1                              -2.897051548597072    
+* S^2 of state    1                                 0.4082971482100945E-31
+* Saved determinants                                            20
+--------------------------------------------------------------------------------
+* Number of unique beta determinants                            10
+* Number of unique alpha determinants                           10
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+
+.. >>>>> [ RES  MEM :       0.050888 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.656406  s ] [ CPU  TIME:       1.721024  s ] <<<<< ..
+
+* Number of generators                                          20
+
+.. >>>>> [ RES  MEM :       0.050888 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.656702  s ] [ CPU  TIME:       1.721431  s ] <<<<< ..
+
+* Number of selectors                                           20
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* PT2 Energy denominator                            -2.897051548597072    
+
+.. >>>>> [ RES  MEM :       0.050888 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.662092  s ] [ CPU  TIME:       1.739650  s ] <<<<< ..
+
+* Number of generators                                          20
+
+.. >>>>> [ RES  MEM :       0.050888 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.662529  s ] [ CPU  TIME:       1.742245  s ] <<<<< ..
+
+* Number of selectors                                           20
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* Number of tasks                                               20
+* Number of fragmented tasks                                     0
+* Number of threads for PT2                                      4
+* Memory (Gb)                                       0.3754124045372009E-04
+========== ================= =========== =============== =============== =================
+ Samples        Energy        Stat. Err     Variance          Norm          Seconds      
+========== ================= =========== =============== =============== =================
+        19     -2.9025651531    0.00        0.1114823078    0.0004010654      0.0059          
+========== ================= =========== =============== =============== =================
+ n_d =           20
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+
+.. >>>>> [ RES  MEM :       0.050907 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.682399  s ] [ CPU  TIME:       1.796619  s ] <<<<< ..
+
+* Number of generators                                          20
+
+.. >>>>> [ RES  MEM :       0.050907 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.682770  s ] [ CPU  TIME:       1.797479  s ] <<<<< ..
+
+* Number of selectors                                           20
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+* Correlation ratio                                 0.8657352859563949    
+ 
+Summary at N_det =           20
+-----------------------------------
+ 
+# ============ =============================
+                     State      1
+# ============ =============================
+# E              -2.89705155
+# PT2            -0.00551360     0.00000000
+# rPT2           -0.00551139     0.00000000
+#
+# E+PT2          -2.90256515     0.00000000
+# E+rPT2         -2.90256294     0.00000000
+# ============ =============================
+ 
+ N_det             =           20
+ N_states          =            1
+ N_sop             =           15
+ 
+ * State            1
+ < S^2 >         =    4.0829714821009449E-032
+ E               =   -2.8970515485970725     
+ Variance        =   0.11148230778131715     
+ PT norm         =    2.0026616757698568E-002
+ PT2             =   -5.5136044647376981E-003
+ rPT2            =   -5.5113940354013947E-003
+ E+PT2            =   -2.9025651530618104       +/-    0.0000000000000000     
+ E+rPT2           =   -2.9025629426324739       +/-    0.0000000000000000     
+ 
+ -----
+ Energy components
+ =================
+ 
+ State            1
+ ---------
+ 
+ Vnn  =    0.0000000000000000     
+ Ven  =   -6.7399725594342756     
+ Vee  =   0.95573997606073346     
+ Vecp =    0.0000000000000000     
+ T    =    2.8871810347764697     
+ 
+ 
+
+Extrapolated energies
+------------------------
+
+ 
+ State            1
+ 
+ =========== ===================
+ minimum PT2 Extrapolated energy
+ =========== ===================
+    -0.0163         -2.90216870
+    -0.0288         -2.90239225
+    -0.0420         -2.90268865
+ =========== ===================
+ 
+ Diagonalization of H using Lapack
+
+.. >>>>> [ RES  MEM :       0.050907 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.696714  s ] [ CPU  TIME:       1.848887  s ] <<<<< ..
+
+* Energy of state    1                              -2.900893185119612    
+* S^2 of state    1                                 0.6278531618702379E-31
+* Saved determinants                                            40
+--------------------------------------------------------------------------------
+* Number of unique beta determinants                            22
+* Number of unique alpha determinants                           22
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+
+.. >>>>> [ RES  MEM :       0.050907 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.701997  s ] [ CPU  TIME:       1.867391  s ] <<<<< ..
+
+* Number of generators                                          40
+
+.. >>>>> [ RES  MEM :       0.050907 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.702301  s ] [ CPU  TIME:       1.867793  s ] <<<<< ..
+
+* Number of selectors                                           40
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* PT2 Energy denominator                            -2.900893185119612    
+
+.. >>>>> [ RES  MEM :       0.050907 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.709455  s ] [ CPU  TIME:       1.896166  s ] <<<<< ..
+
+* Number of generators                                          40
+
+.. >>>>> [ RES  MEM :       0.050907 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.709786  s ] [ CPU  TIME:       1.898168  s ] <<<<< ..
+
+* Number of selectors                                           40
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* Number of tasks                                               40
+* Number of fragmented tasks                                     0
+* Number of threads for PT2                                      4
+* Memory (Gb)                                       0.4612952470779419E-04
+========== ================= =========== =============== =============== =================
+ Samples        Energy        Stat. Err     Variance          Norm          Seconds      
+========== ================= =========== =============== =============== =================
+        39     -2.9024326379    0.00        0.0257752786    0.0001380400      0.0088          
+========== ================= =========== =============== =============== =================
+ n_d =           40
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+
+.. >>>>> [ RES  MEM :       0.050915 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.750385  s ] [ CPU  TIME:       2.006334  s ] <<<<< ..
+
+* Number of generators                                          40
+
+.. >>>>> [ RES  MEM :       0.050915 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.750931  s ] [ CPU  TIME:       2.006520  s ] <<<<< ..
+
+* Number of selectors                                           40
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+* Correlation ratio                                 0.9623825010744533    
+ 
+Summary at N_det =           40
+-----------------------------------
+ 
+# ============ =============================
+                     State      1
+# ============ =============================
+# E              -2.90089319
+# PT2            -0.00153945     0.00000000
+# rPT2           -0.00153924     0.00000000
+#
+# E+PT2          -2.90243264     0.00000000
+# E+rPT2         -2.90243243     0.00000000
+# ============ =============================
+ 
+ N_det             =           40
+ N_states          =            1
+ N_sop             =           31
+ 
+ * State            1
+ < S^2 >         =    6.2785316187023790E-032
+ E               =   -2.9008931851196116     
+ Variance        =    2.5775278573215189E-002
+ PT norm         =    1.1749044566551686E-002
+ PT2             =   -1.5394527523227008E-003
+ rPT2            =   -1.5392402755208352E-003
+ E+PT2            =   -2.9024326378719341       +/-    0.0000000000000000     
+ E+rPT2           =   -2.9024324253951326       +/-    0.0000000000000000     
+ 
+ -----
+ Energy components
+ =================
+ 
+ State            1
+ ---------
+ 
+ Vnn  =    0.0000000000000000     
+ Ven  =   -6.7424718726414774     
+ Vee  =   0.94950580183065281     
+ Vecp =    0.0000000000000000     
+ T    =    2.8920728856912130     
+ 
+ 
+
+Extrapolated energies
+------------------------
+
+ 
+ State            1
+ 
+ =========== ===================
+ minimum PT2 Extrapolated energy
+ =========== ===================
+    -0.0055         -2.90238185
+    -0.0163         -2.90228405
+    -0.0288         -2.90237308
+    -0.0420         -2.90254398
+ =========== ===================
+ 
+ Diagonalization of H using Lapack
+
+.. >>>>> [ RES  MEM :       0.050915 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.775887  s ] [ CPU  TIME:       2.095881  s ] <<<<< ..
+
+* Energy of state    1                              -2.902294787688113    
+* S^2 of state    1                                 0.9360019529721973E-30
+* Saved determinants                                            80
+--------------------------------------------------------------------------------
+* Number of unique beta determinants                            30
+* Number of unique alpha determinants                           30
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+
+.. >>>>> [ RES  MEM :       0.050915 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.781929  s ] [ CPU  TIME:       2.123101  s ] <<<<< ..
+
+* Number of generators                                          80
+
+.. >>>>> [ RES  MEM :       0.050915 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.782461  s ] [ CPU  TIME:       2.125836  s ] <<<<< ..
+
+* Number of selectors                                           80
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* PT2 Energy denominator                            -2.902294787688113    
+
+.. >>>>> [ RES  MEM :       0.050915 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.788750  s ] [ CPU  TIME:       2.149804  s ] <<<<< ..
+
+* Number of generators                                          80
+
+.. >>>>> [ RES  MEM :       0.050915 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.789278  s ] [ CPU  TIME:       2.149977  s ] <<<<< ..
+
+* Number of selectors                                           80
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* Number of tasks                                               80
+* Number of fragmented tasks                                     0
+* Number of threads for PT2                                      4
+* Memory (Gb)                                       0.6330609321594238E-04
+========== ================= =========== =============== =============== =================
+ Samples        Energy        Stat. Err     Variance          Norm          Seconds      
+========== ================= =========== =============== =============== =================
+        79     -2.9024111746    0.00        0.0019572943    0.0000121537      0.0166          
+========== ================= =========== =============== =============== =================
+ n_d =           80
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+
+.. >>>>> [ RES  MEM :       0.050919 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.838659  s ] [ CPU  TIME:       2.279125  s ] <<<<< ..
+
+* Number of generators                                          80
+
+.. >>>>> [ RES  MEM :       0.050919 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.838891  s ] [ CPU  TIME:       2.279663  s ] <<<<< ..
+
+* Number of selectors                                           80
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+* Correlation ratio                                 0.9971541761687328    
+ 
+Summary at N_det =           80
+-----------------------------------
+ 
+# ============ =============================
+                     State      1
+# ============ =============================
+# E              -2.90229479
+# PT2            -0.00011639     0.00000000
+# rPT2           -0.00011639     0.00000000
+#
+# E+PT2          -2.90241117     0.00000000
+# E+rPT2         -2.90241117     0.00000000
+# ============ =============================
+ 
+ N_det             =           80
+ N_states          =            1
+ N_sop             =           55
+ 
+ * State            1
+ < S^2 >         =    9.3600195297219733E-031
+ E               =   -2.9022947876881129     
+ Variance        =    1.9572943117171712E-003
+ PT norm         =    3.4862140368896754E-003
+ PT2             =   -1.1638691795723410E-004
+ rPT2            =   -1.1638550344410133E-004
+ E+PT2            =   -2.9024111746060699       +/-    0.0000000000000000     
+ E+rPT2           =   -2.9024111731915569       +/-    0.0000000000000000     
+ 
+ -----
+ Energy components
+ =================
+ 
+ State            1
+ ---------
+ 
+ Vnn  =    0.0000000000000000     
+ Ven  =   -6.7428310779178435     
+ Vee  =   0.94712300551172390     
+ Vecp =    0.0000000000000000     
+ T    =    2.8934132847180067     
+ 
+ 
+
+Extrapolated energies
+------------------------
+
+ 
+ State            1
+ 
+ =========== ===================
+ minimum PT2 Extrapolated energy
+ =========== ===================
+    -0.0015         -2.90240943
+    -0.0055         -2.90239920
+    -0.0163         -2.90233917
+    -0.0288         -2.90238560
+    -0.0420         -2.90249763
+ =========== ===================
+ 
+ Diagonalization of H using Lapack
+
+.. >>>>> [ RES  MEM :       0.051170 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.887123  s ] [ CPU  TIME:       2.453202  s ] <<<<< ..
+
+* Energy of state    1                              -2.902410877947538    
+* S^2 of state    1                                 0.2900539570507093E-28
+* Saved determinants                                           160
+--------------------------------------------------------------------------------
+* Number of unique beta determinants                            30
+* Number of unique alpha determinants                           30
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+
+.. >>>>> [ RES  MEM :       0.051170 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.893862  s ] [ CPU  TIME:       2.482106  s ] <<<<< ..
+
+* Number of generators                                         146
+
+.. >>>>> [ RES  MEM :       0.051170 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.894163  s ] [ CPU  TIME:       2.482514  s ] <<<<< ..
+
+* Number of selectors                                          146
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* PT2 Energy denominator                            -2.902410877947538    
+
+.. >>>>> [ RES  MEM :       0.051170 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.901916  s ] [ CPU  TIME:       2.509559  s ] <<<<< ..
+
+* Number of generators                                         146
+
+.. >>>>> [ RES  MEM :       0.051170 GB ] [ VIRT MEM :       2.487293 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.902222  s ] [ CPU  TIME:       2.509982  s ] <<<<< ..
+
+* Number of selectors                                          146
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* Number of tasks                                              146
+* Number of fragmented tasks                                     0
+* Number of threads for PT2                                      4
+* Memory (Gb)                                       0.9728007018566131E-04
+========== ================= =========== =============== =============== =================
+ Samples        Energy        Stat. Err     Variance          Norm          Seconds      
+========== ================= =========== =============== =============== =================
+       145     -2.9024108779    0.00        0.0000000000    0.0000000000      0.0293          
+========== ================= =========== =============== =============== =================
+ n_d =          160
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+
+.. >>>>> [ RES  MEM :       0.051903 GB ] [ VIRT MEM :       2.487812 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.953273  s ] [ CPU  TIME:       2.629034  s ] <<<<< ..
+
+* Number of generators                                         146
+
+.. >>>>> [ RES  MEM :       0.051903 GB ] [ VIRT MEM :       2.487812 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.953530  s ] [ CPU  TIME:       2.629612  s ] <<<<< ..
+
+* Number of selectors                                          146
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+ Using pt2-matching weight in selection
+ # PT2 weight   0.500000000    
+ # Total weight   0.500000000    
+* Correlation ratio                                  1.000000000000000    
+ 
+Summary at N_det =          160
+-----------------------------------
+ 
+# ============ =============================
+                     State      1
+# ============ =============================
+# E              -2.90241088
+# PT2             0.00000000     0.00000000
+# rPT2            0.00000000     0.00000000
+#
+# E+PT2          -2.90241088     0.00000000
+# E+rPT2         -2.90241088     0.00000000
+# ============ =============================
+ 
+ N_det             =          160
+ N_states          =            1
+ N_sop             =           95
+ 
+ * State            1
+ < S^2 >         =    2.9005395705070928E-029
+ E               =   -2.9024108779475384     
+ Variance        =    6.0793602826167899E-029
+ PT norm         =    9.1846315047698806E-016
+ PT2             =    0.0000000000000000     
+ rPT2            =    0.0000000000000000     
+ E+PT2            =   -2.9024108779475384       +/-    0.0000000000000000     
+ E+rPT2           =   -2.9024108779475384       +/-    0.0000000000000000     
+ 
+ -----
+ Energy components
+ =================
+ 
+ State            1
+ ---------
+ 
+ Vnn  =    0.0000000000000000     
+ Ven  =   -6.7518570484488158     
+ Vee  =   0.94728656305164716     
+ Vecp =    0.0000000000000000     
+ T    =    2.9021596074496303     
+ 
+ 
+
+Extrapolated energies
+------------------------
+
+ 
+ State            1
+ 
+ =========== ===================
+ minimum PT2 Extrapolated energy
+ =========== ===================
+    -0.0001         -2.90241088
+    -0.0015         -2.90241022
+    -0.0055         -2.90240400
+    -0.0163         -2.90236192
+    -0.0288         -2.90239266
+    -0.0420         -2.90247554
+ =========== ===================
+ 
+ Diagonalization of H using Lapack
+
+.. >>>>> [ RES  MEM :       0.054123 GB ] [ VIRT MEM :       2.487865 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       1.179778  s ] [ CPU  TIME:       3.219929  s ] <<<<< ..
+
+* Energy of state    1                              -2.902410877947524    
+* S^2 of state    1                                 0.3791186549191011E-29
+* Saved determinants                                           322
+* Saved determinants                                           322
+* Number of unique beta determinants                            30
+* Number of unique alpha determinants                           30
+ Using pt2-matching weight in selection
+ # PT2 weight   0.500000000    
+ # Total weight   0.500000000    
+
+.. >>>>> [ RES  MEM :       0.054123 GB ] [ VIRT MEM :       2.487865 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       1.197634  s ] [ CPU  TIME:       3.293263  s ] <<<<< ..
+
+* Number of generators                                         146
+
+.. >>>>> [ RES  MEM :       0.054123 GB ] [ VIRT MEM :       2.487865 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       1.197867  s ] [ CPU  TIME:       3.293809  s ] <<<<< ..
+
+* Number of selectors                                          146
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* PT2 Energy denominator                            -2.902410877947524    
+
+.. >>>>> [ RES  MEM :       0.054123 GB ] [ VIRT MEM :       2.487865 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       1.203189  s ] [ CPU  TIME:       3.313175  s ] <<<<< ..
+
+* Number of generators                                         146
+
+.. >>>>> [ RES  MEM :       0.054123 GB ] [ VIRT MEM :       2.487865 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       1.203422  s ] [ CPU  TIME:       3.313679  s ] <<<<< ..
+
+* Number of selectors                                          146
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* Number of tasks                                              146
+* Number of fragmented tasks                                     0
+* Number of threads for PT2                                      4
+* Memory (Gb)                                       0.1481079310178757E-03
+========== ================= =========== =============== =============== =================
+ Samples        Energy        Stat. Err     Variance          Norm          Seconds      
+========== ================= =========== =============== =============== =================
+       145     -2.9024108779    0.00        0.0000000000    0.0000000000      0.0346          
+========== ================= =========== =============== =============== =================
+ Using pt2-matching weight in selection
+ # PT2 weight   0.500000000    
+ # Total weight   0.500000000    
+
+.. >>>>> [ RES  MEM :       0.055393 GB ] [ VIRT MEM :       2.489357 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       1.258083  s ] [ CPU  TIME:       3.440920  s ] <<<<< ..
+
+* Number of generators                                         146
+
+.. >>>>> [ RES  MEM :       0.055393 GB ] [ VIRT MEM :       2.489357 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       1.258391  s ] [ CPU  TIME:       3.441345  s ] <<<<< ..
+
+* Number of selectors                                          146
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+ Using pt2-matching weight in selection
+ # PT2 weight   0.250000000    
+ # Total weight   0.250000000    
+ 
+Summary at N_det =          322
+-----------------------------------
+ 
+# ============ =============================
+                     State      1
+# ============ =============================
+# E              -2.90241088
+# PT2             0.00000000     0.00000000
+# rPT2            0.00000000     0.00000000
+#
+# E+PT2          -2.90241088     0.00000000
+# E+rPT2         -2.90241088     0.00000000
+# ============ =============================
+ 
+ N_det             =          322
+ N_states          =            1
+ N_sop             =          176
+ 
+ * State            1
+ < S^2 >         =    3.7911865491910113E-030
+ E               =   -2.9024108779475237     
+ Variance        =    6.1929651831490961E-029
+ PT norm         =    9.5435327990051440E-016
+ PT2             =    0.0000000000000000     
+ rPT2            =    0.0000000000000000     
+ E+PT2            =   -2.9024108779475237       +/-    0.0000000000000000     
+ E+rPT2           =   -2.9024108779475237       +/-    0.0000000000000000     
+ 
+ -----
+ Energy components
+ =================
+ 
+ State            1
+ ---------
+ 
+ Vnn  =    0.0000000000000000     
+ Ven  =   -6.7518570484487563     
+ Vee  =   0.94728656305163605     
+ Vecp =    0.0000000000000000     
+ T    =    2.9021596074495966     
+ 
+ 
+
+Extrapolated energies
+------------------------
+
+ 
+ State            1
+ 
+ =========== ===================
+ minimum PT2 Extrapolated energy
+ =========== ===================
+     0.0000         -2.90241088
+    -0.0001         -2.90241088
+    -0.0015         -2.90241045
+    -0.0055         -2.90240601
+    -0.0163         -2.90237371
+    -0.0288         -2.90239664
+    -0.0420         -2.90246242
+ =========== ===================
+ 
+Wall time: 0:00:03
+

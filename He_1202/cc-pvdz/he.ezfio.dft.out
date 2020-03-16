@@ -1,0 +1,272 @@
+Date: 03/03/2020 12:32:23
+===============
+Quantum Package
+===============
+
+Git Commit: Python2 in resultsFile
+Git Date  : Wed Feb 12 15:31:40 2020 -0600
+Git SHA1  : a2794cbb33cae2152fefd67133f510d388a44c77
+EZFIO Dir : he.ezfio
+
+
+Task server running : tcp://127.0.1.1:41279
+.. >>>>> [ IO READ: no_core_density ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004902 GB ] [ VIRT MEM :       0.043858 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000268  s ] [ CPU  TIME:       0.003196  s ] <<<<< ..
+
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004902 GB ] [ VIRT MEM :       0.043858 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000521  s ] [ CPU  TIME:       0.003388  s ] <<<<< ..
+
+.. >>>>> [ IO READ: mu_of_r_potential ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004902 GB ] [ VIRT MEM :       0.043858 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000746  s ] [ CPU  TIME:       0.003552  s ] <<<<< ..
+
+.. >>>>> [ IO READ: mu_of_r_functional ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004902 GB ] [ VIRT MEM :       0.043858 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.001029  s ] [ CPU  TIME:       0.003774  s ] <<<<< ..
+
+ LDA, PBE and PBE-on-top / mu(r) PSI coallescence with frozen core interaction
+ ****************************************
+ Functional used   = basis_set_on_top_PBE            
+ ****************************************
+ mu_of_r_potential = psi_coallescence                
+  MR DFT energy with pure correlation part for the DFT 
+.. >>>>> [ IO READ: grid_type_sgn ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004902 GB ] [ VIRT MEM :       0.043858 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.001294  s ] [ CPU  TIME:       0.003977  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004902 GB ] [ VIRT MEM :       0.043858 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.001562  s ] [ CPU  TIME:       0.004184  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_charge ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005859 GB ] [ VIRT MEM :       0.067307 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.007486  s ] [ CPU  TIME:       0.017818  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_label ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005859 GB ] [ VIRT MEM :       0.067307 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.007972  s ] [ CPU  TIME:       0.019789  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.005859 GB ] [ VIRT MEM :       0.192307 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.008442  s ] [ CPU  TIME:       0.020450  s ] <<<<< ..
+
+
+Nuclear Coordinates (Angstroms)
+===============================
+
+================ ============ ============ ============ ============
+      Atom          Charge          X            Y            Z 
+================ ============ ============ ============ ============
+He                   2.000000     0.000000     0.000000     0.000000
+================ ============ ============ ============ ============
+
+.. >>>>> [ IO READ: thresh_grid ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.006996 GB ] [ VIRT MEM :       0.193157 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.011922  s ] [ CPU  TIME:       0.034709  s ] <<<<< ..
+
+ n_points_final_grid =        22046
+ n max point         =        22348
+.. >>>>> [ IO READ: n_states ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.006996 GB ] [ VIRT MEM :       0.193157 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.012343  s ] [ CPU  TIME:       0.035179  s ] <<<<< ..
+
+ providing the mu_of_r ...
+.. >>>>> [ IO READ: on_top_from_cas ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.008003 GB ] [ VIRT MEM :       0.194534 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.013558  s ] [ CPU  TIME:       0.037250  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ontop_approx ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.008003 GB ] [ VIRT MEM :       0.194534 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.013903  s ] [ CPU  TIME:       0.037650  s ] <<<<< ..
+
+* mo_num                                                         5
+.. >>>>> [ IO READ: mo_class ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.008003 GB ] [ VIRT MEM :       0.257202 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.014552  s ] [ CPU  TIME:       0.038576  s ] <<<<< ..
+
+* Number of active   MOs                                         5
+ Active MOs:
+           1           2           3           4           5
+ * mo_label          Canonical
+* Number of determinants                                         7
+* Dimension of the psi arrays                               100000
+ Read psi_coef           7           1
+ 
+ 
+ 
+ providint all_states_act_two_rdm_alpha_beta_mo 
+ ispin =            3
+* N_int                                                          1
+.. >>>>> [ IO READ: ao_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.008987 GB ] [ VIRT MEM :       0.257950 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.016308  s ] [ CPU  TIME:       0.048935  s ] <<<<< ..
+
+ Read  mo_coef
+.. >>>>> [ IO READ: elec_beta_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.008987 GB ] [ VIRT MEM :       0.257950 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.016932  s ] [ CPU  TIME:       0.049784  s ] <<<<< ..
+
+.. >>>>> [ IO READ: elec_alpha_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.008987 GB ] [ VIRT MEM :       0.257950 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.017312  s ] [ CPU  TIME:       0.050223  s ] <<<<< ..
+
+ Read psi_det
+* Number of unique alpha determinants                            5
+* Number of unique beta determinants                             5
+ providing two_bod_alpha_beta_mo_physicist ...
+ two_bod_alpha_beta_mo_physicist provided in   2.3419997887685895E-006
+ providing the on_top_of_r_exact
+.. >>>>> [ IO READ: ao_prim_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.010612 GB ] [ VIRT MEM :       0.266487 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.023123  s ] [ CPU  TIME:       0.072867  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_expo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.010612 GB ] [ VIRT MEM :       0.266487 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.023711  s ] [ CPU  TIME:       0.074134  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_coef ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.010612 GB ] [ VIRT MEM :       0.266487 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.024250  s ] [ CPU  TIME:       0.075297  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_power ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.010612 GB ] [ VIRT MEM :       0.266487 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.024829  s ] [ CPU  TIME:       0.076069  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_nucl ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011086 GB ] [ VIRT MEM :       0.266487 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.025523  s ] [ CPU  TIME:       0.077120  s ] <<<<< ..
+
+ provided the on_top_of_r_exact
+ Time to provide :   1.5871215999140986E-002
+ MO map initialized:                   120
+.. >>>>> [ IO READ: io_mo_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.013035 GB ] [ VIRT MEM :       0.270596 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.055422  s ] [ CPU  TIME:       0.193031  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.013035 GB ] [ VIRT MEM :       0.270596 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.055923  s ] [ CPU  TIME:       0.196401  s ] <<<<< ..
+
+ AO map initialized :                   120
+ Providing the AO integrals
+.. >>>>> [ IO READ: ao_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.014282 GB ] [ VIRT MEM :       0.419178 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.059916  s ] [ CPU  TIME:       0.206313  s ] <<<<< ..
+
+ Sorting the map
+ AO integrals provided:
+  Size of AO map :            4.6157836914062500E-004 MB
+  Number of AO integrals :                   33
+  cpu  time :   1.4362000000000014E-002 s
+  wall time :   7.2125940005207667E-003 s  ( x    1.9912392128217729       )
+ 
+ AO -> MO integrals transformation
+ ---------------------------------
+ 
+.. >>>>> [ IO READ: mo_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.014553 GB ] [ VIRT MEM :       0.481678 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.063619  s ] [ CPU  TIME:       0.211299  s ] <<<<< ..
+
+ Buffers :    4.27246094E-03 MB / core
+ Molecular integrals provided:
+  Size of MO map              5.3787231445312500E-004 MB
+  Number of MO integrals:                    33
+  cpu  time :   1.3440999999999981E-002 s
+  wall time :   4.6025439987715799E-003 s  ( x    2.9203414467275897      )
+ Providing  V_kl_contracted_transposed ..... 
+ Time to provide V_kl_contracted_transposed =    2.3612626000613091E-002
+ Providing  rho2_kl_contracted_transposed ..... 
+ Time to provide rho2_kl_contracted_transposed =    2.3117510998417856E-002
+ Providing  f_psi_ab ..... 
+ Time to provide f_psi_ab =    5.8966299911844544E-004
+ providing the mu_of_r_psi_coal_vector ...
+ Time to provide mu_of_r_psi_coal_vector =    1.0164999912376516E-004
+ Time to provide mu_of_r =   0.11797232600110874     
+ Providing Energy_c_md_n_and_on_top_PBE_mu_of_r ...
+.. >>>>> [ IO READ: density_for_dft ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.027145 GB ] [ VIRT MEM :       0.614895 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.131574  s ] [ CPU  TIME:       0.465507  s ] <<<<< ..
+
+* Number of core     MOs                                         0
+.. >>>>> [ IO READ: normalize_dm ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.027145 GB ] [ VIRT MEM :       0.614895 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.131916  s ] [ CPU  TIME:       0.470252  s ] <<<<< ..
+
+ Core MOs:
+
+* Number of inactive MOs                                         0
+ providing core_inact_act_two_bod_alpha_beta_mo ...
+ core_inact_act_two_bod_alpha_beta_mo provided in   1.2987000445718877E-005
+ USING THE VALENCE ONLY TWO BODY DENSITY
+ providing core_inact_act_two_bod_alpha_beta_mo_physicist ...
+ core_inact_act_two_bod_alpha_beta_mo_physicist provided in   1.5679997886763886E-006
+ providing the core_inact_act_on_top_of_r
+ mo_num,n_points_final_grid           5       22046
+ Core, Inactive and Active MOs:
+           1           2           3           4           5
+ provided the core_inact_act_on_top_of_r
+ Time to provide :   6.5869213000041782E-002
+ Time for the Energy_c_md_n_and_on_top_PBE_mu_of_r :  0.19663541599948076     
+ Providing Energy_c_md_n_and_PBE_mu_of_r ...
+ Time for the Energy_c_md_n_and_PBE_mu_of_r :   8.5124541001277976E-002
+ Providing Energy_c_md_LDA_mu_of_r ...
+ Time for Energy_c_md_LDA_mu_of_r :   3.5810670000500977E-002
+ Providing Energy_c_md_n_and_PBE_mu_of_r ...
+ Time for the Energy_c_md_zero_spin_PBE_UEG_mu_of_r :   8.3552382000561920E-002
+ Providing Energy_c_md_LDA_mu_of_r ...
+ Time for Energy_c_md_n_and_LDA_mu_of_r :   3.5652014999868697E-002
+ Providing Energy_c_md_n_and_on_top_PBE_mu_of_r ...
+ Time for the Energy_c_md_n_and_on_top_PBE_mu_of_r :   8.2310452999081463E-002
+ Providing Energy_c_md_mu_of_r_PBE_on_top ...
+ Time for the Energy_c_md_on_top_PBE_mu_of_r:  0.20604633699986152     
+ Providing Energy_c_md_PBE_mu_of_r ...
+ Time for the Energy_c_md_PBE_mu_of_r:   8.3602351000081399E-002
+ 
+ Corrections using Multi determinant mu
+ 
+ Functionals with UEG ontop pair density at large mu
+ 
+ ECMD LDA        regular    spin dens =     -0.0105787907
+ ECMD LDA        effective  spin dens =     -0.0091278279
+ ECMD PBE        regular    spin dens =     -0.0108702292
+ ECMD PBE        effective  spin dens =     -0.0088102880
+ ECMD PBE        NO         spin dens =     -0.0108702292
+ 
+ Functionals with extrapolated exact ontop based on current wave function 
+ 
+ ECMD PBE/ontop  regular    spin dens =     -0.0095222775
+ ECMD PBE/ontop  effective  spin dens =     -0.0092407043
+ ECMD PBE/ontop  NO         spin dens =     -0.0095222775
+ 
+mu_average for basis set  =      1.6663643958
+Wall time: 0:00:02
+

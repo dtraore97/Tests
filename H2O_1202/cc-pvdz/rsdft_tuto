@@ -1,0 +1,24 @@
+#!/bin/bash                                                                                                                                  
+QP_ROOT=~/qp2/
+source ${QP_ROOT}quantum_package.rc
+
+file_xyz=H2O.xyz
+basis=cc-pvdz
+ezfio=H2O
+#(Re-)initialize the ezfio folder
+rm -rf $ezfio 
+
+#start with a RHF calculation
+qp create_ezfio -b $basis -o $ezfio $file_xyz 
+qp run scf 
+qp set_frozen_core
+
+#define the main options : mu, functional, number of determinants, max pt2 and reading or not two-elec integrals (to save time)
+mu=0.5 
+fun=pbe
+ndet=1000
+pt2=0.
+readint=False
+
+# run the rsdft script
+qp_cipsi_rsh  -m $mu  -f $fun  -n $ndet  -p $pt2 $ezfio  -r $readint 

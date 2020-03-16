@@ -1,0 +1,212 @@
+Date: 09/03/2020 19:03:34
+===============
+Quantum Package
+===============
+
+Git Commit: Python2 in resultsFile
+Git Date  : Wed Feb 12 15:31:40 2020 -0600
+Git SHA1  : a2794cbb33cae2152fefd67133f510d388a44c77
+EZFIO Dir : H2O
+
+
+Task server running : tcp://127.0.1.1:41279
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004654 GB ] [ VIRT MEM :       0.042500 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000253  s ] [ CPU  TIME:       0.003056  s ] <<<<< ..
+
+.. >>>>> [ IO READ: n_states ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004654 GB ] [ VIRT MEM :       0.042500 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000492  s ] [ CPU  TIME:       0.003234  s ] <<<<< ..
+
+ * mo_label          Canonical
+* Number of determinants                                      1720
+* Dimension of the psi arrays                               100000
+ Read psi_coef        1720           1
+* mo_num                                                        24
+* N_int                                                          1
+.. >>>>> [ IO READ: ao_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.006050 GB ] [ VIRT MEM :       0.254311 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.010281  s ] [ CPU  TIME:       0.033211  s ] <<<<< ..
+
+ Read  mo_coef
+.. >>>>> [ IO READ: elec_beta_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.006050 GB ] [ VIRT MEM :       0.254311 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.011756  s ] [ CPU  TIME:       0.038750  s ] <<<<< ..
+
+.. >>>>> [ IO READ: elec_alpha_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.006050 GB ] [ VIRT MEM :       0.254311 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.012075  s ] [ CPU  TIME:       0.039443  s ] <<<<< ..
+
+ Read psi_det
+.. >>>>> [ IO READ: weight_one_e_dm ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.007904 GB ] [ VIRT MEM :       0.255909 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.019995  s ] [ CPU  TIME:       0.071499  s ] <<<<< ..
+
+.. >>>>> [ IO READ: n_det_max_full ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011986 GB ] [ VIRT MEM :       0.260017 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.027827  s ] [ CPU  TIME:       0.094410  s ] <<<<< ..
+
+.. >>>>> [ IO READ: threshold_davidson ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011986 GB ] [ VIRT MEM :       0.260017 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.028141  s ] [ CPU  TIME:       0.094804  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.011986 GB ] [ VIRT MEM :       0.260017 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.028455  s ] [ CPU  TIME:       0.095194  s ] <<<<< ..
+
+ Read  n_states_diag
+.. >>>>> [ IO READ: davidson_sze_max ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011986 GB ] [ VIRT MEM :       0.260017 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.028826  s ] [ CPU  TIME:       0.098575  s ] <<<<< ..
+
+.. >>>>> [ IO READ: mo_class ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011986 GB ] [ VIRT MEM :       0.260017 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.029345  s ] [ CPU  TIME:       0.099865  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011986 GB ] [ VIRT MEM :       0.260017 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.029714  s ] [ CPU  TIME:       0.104834  s ] <<<<< ..
+
+ MO map initialized:                 45150
+ Reading the MO integrals
+ MO integrals provided
+.. >>>>> [ IO READ: io_mo_integrals_e_n ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011986 GB ] [ VIRT MEM :       0.260220 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.030286  s ] [ CPU  TIME:       0.105787  s ] <<<<< ..
+
+ MO N-e integrals read from disk
+.. >>>>> [ IO READ: io_mo_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011986 GB ] [ VIRT MEM :       0.260220 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.031692  s ] [ CPU  TIME:       0.110539  s ] <<<<< ..
+
+ MO kinetic integrals read from disk
+.. >>>>> [ IO READ: io_mo_one_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011986 GB ] [ VIRT MEM :       0.260220 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.033050  s ] [ CPU  TIME:       0.113914  s ] <<<<< ..
+
+ Providing the one-electron integrals
+.. >>>>> [ IO READ: do_pseudo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011986 GB ] [ VIRT MEM :       0.260220 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.033447  s ] [ CPU  TIME:       0.114405  s ] <<<<< ..
+
+.. >>>>> [ IO READ: state_following ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.025352 GB ] [ VIRT MEM :       2.260223 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.056232  s ] [ CPU  TIME:       0.202568  s ] <<<<< ..
+
+* Number of unique beta determinants                           311
+.. >>>>> [ IO READ: distributed_davidson ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.025352 GB ] [ VIRT MEM :       2.261719 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.056938  s ] [ CPU  TIME:       0.204339  s ] <<<<< ..
+
+* Target maximum memory (GB)                                  2000
+* Number of unique alpha determinants                          311
+.. >>>>> [ IO READ: only_expected_s2 ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.025742 GB ] [ VIRT MEM :       2.265560 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.058532  s ] [ CPU  TIME:       0.210601  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.025742 GB ] [ VIRT MEM :       2.265560 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.058884  s ] [ CPU  TIME:       0.211394  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_charge ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.025742 GB ] [ VIRT MEM :       2.265560 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.059365  s ] [ CPU  TIME:       0.212556  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_label ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.025742 GB ] [ VIRT MEM :       2.265560 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.059781  s ] [ CPU  TIME:       0.213538  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.025742 GB ] [ VIRT MEM :       2.265560 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.060191  s ] [ CPU  TIME:       0.214517  s ] <<<<< ..
+
+
+Nuclear Coordinates (Angstroms)
+===============================
+
+================ ============ ============ ============ ============
+      Atom          Charge          X            Y            Z 
+================ ============ ============ ============ ============
+H                    1.000000    -0.757000     0.586000     0.000000
+H                    1.000000     0.757000     0.586000     0.000000
+O                    8.000000     0.000000     0.000000     0.000000
+================ ============ ============ ============ ============
+
+.. >>>>> [ IO READ: io_nuclear_repulsion ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.025742 GB ] [ VIRT MEM :       2.265560 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.060744  s ] [ CPU  TIME:       0.215485  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.025742 GB ] [ VIRT MEM :       2.265560 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.061007  s ] [ CPU  TIME:       0.216069  s ] <<<<< ..
+
+* Nuclear repulsion energy                           9.193913160623387    
+.. >>>>> [ IO READ: disk_based_davidson ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.025742 GB ] [ VIRT MEM :       2.265560 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.061354  s ] [ CPU  TIME:       0.216805  s ] <<<<< ..
+
+.. >>>>> [ IO READ: s2_eig ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.025742 GB ] [ VIRT MEM :       2.265560 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.061687  s ] [ CPU  TIME:       0.221532  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.025742 GB ] [ VIRT MEM :       2.265560 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.061951  s ] [ CPU  TIME:       0.222120  s ] <<<<< ..
+
+
+Davidson Diagonalization
+------------------------
+
+* Number of states                                               1
+* Number of states in diagonalization                            4
+* Number of determinants                                      1720
+* Number of threads for diagonalization                          4
+* Memory(Gb)                                        0.2445697784423828E-02
+
+===== ================ =========== =========== 
+Iter       Energy          S^2       Residual  
+===== ================ =========== =========== 
+   1    -54.3851787332    0.000000   0.695E-06
+   2    -54.3851790318    0.000000   0.473E-06
+   3    -54.3851790394    0.000000   0.528E-08
+   4    -54.3851790400    0.000000   0.315E-11
+====== ================ =========== ===========
+
+
+.. >>>>> [ RES  MEM :       0.028728 GB ] [ VIRT MEM :       2.268135 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.170979  s ] [ CPU  TIME:       0.641158  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.027744 GB ] [ VIRT MEM :       2.266209 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.193779  s ] [ CPU  TIME:       0.731021  s ] <<<<< ..
+
+* Energy of state    1                              -54.38517903997813    
+* S^2 of state    1                                 0.7363997087619570E-13
+ N_det =         1720
+* Saved determinants                                          1720
+Wall time: 0:00:02
+

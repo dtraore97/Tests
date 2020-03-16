@@ -1,0 +1,3823 @@
+(reverse-i-search)`s': qp run ^Cf
+dtraore@trudon:~/H2O_1202 $ ssh master 
+Last login: Wed Feb 12 13:52:15 2020 from trudon.lct.jussieu.fr
+19/11/2019
+==========
+
+     Files d'attente sur master (noeuds communs):
+     ============================================
+ 
+     L'accès aux files se fait automatiquement pour les noeuds communs,
+     en fonction des ressources demandées.
+
+     Ressources demandées : 1 noeud maximum - 16Gb de mémoire maximum :
+        qShort, si cput <= 50:00:00 (50 heures CPU)
+        qLong, si 50:00:00 < cput <= 500:00:00
+        qInf, si cput > 500:00:00
+
+     Ressources demandées : 1 noeud maximum - 32Gb de mémoire maximum (>16Gb) :
+        qBigmem, 1500 heures CPU maximum.
+     
+     Ressources demandées : 1 noeud maximum - 120Gb de mémoire maximum (>32Gb) :
+        qHugemem, 768 heures CPU et 48 heures (walltime) maximum. 16 coeurs alloués.
+
+
+
+    En file qShort : 48 processeurs maximum par utilisateur et/ou 24 calculs maximum par utilisateur
+    En file qLong, qInf ou qBigmem : 48 processeurs maximum par utilisateur et/ou 8 calculs maximum par utilisateur
+    En file qHugemem : 16 processeurs imposés (et maximum) par utilisateur et 1 calcul maximum par utilisateur
+
+----------------------------------------------------------------------------
+
+
+dtraore@master:~ $ ls
+Bureau  Documents  H2O_1202  He_1202  Images  Modèles  Musique  perl5  programs  Public  Téléchargements  test2_qp  tests_qp  Vidéos
+dtraore@master:~ $ mol
+molden   molekel  
+dtraore@master:~ $ mol
+molden   molekel  
+dtraore@master:~ $ mol
+molden   molekel  
+dtraore@master:~ $ mol^C
+dtraore@master:~ $ ls
+Bureau  Documents  H2O_1202  He_1202  Images  Modèles  Musique  perl5  programs  Public  Téléchargements  test2_qp  tests_qp  Vidéos
+dtraore@master:~ $ cd H2O_1202/
+dtraore@master:~/H2O_1202 $ ls
+H2O.ezfio  H2O.ezfio.mol  H2O.xyz
+dtraore@master:~/H2O_1202 $ molden H2O.ezfio.mol 
+Molden: cannot connect to X server 
+dtraore@master:~/H2O_1202 $ exit
+déconnexion
+Connection to master closed.
+dtraore@trudon:~/H2O_1202 $ ssh -X master 
+Last login: Thu Feb 13 14:39:24 2020 from trudon.lct.jussieu.fr
+19/11/2019
+==========
+
+     Files d'attente sur master (noeuds communs):
+     ============================================
+ 
+     L'accès aux files se fait automatiquement pour les noeuds communs,
+     en fonction des ressources demandées.
+
+     Ressources demandées : 1 noeud maximum - 16Gb de mémoire maximum :
+        qShort, si cput <= 50:00:00 (50 heures CPU)
+        qLong, si 50:00:00 < cput <= 500:00:00
+        qInf, si cput > 500:00:00
+
+     Ressources demandées : 1 noeud maximum - 32Gb de mémoire maximum (>16Gb) :
+        qBigmem, 1500 heures CPU maximum.
+     
+     Ressources demandées : 1 noeud maximum - 120Gb de mémoire maximum (>32Gb) :
+        qHugemem, 768 heures CPU et 48 heures (walltime) maximum. 16 coeurs alloués.
+
+
+
+    En file qShort : 48 processeurs maximum par utilisateur et/ou 24 calculs maximum par utilisateur
+    En file qLong, qInf ou qBigmem : 48 processeurs maximum par utilisateur et/ou 8 calculs maximum par utilisateur
+    En file qHugemem : 16 processeurs imposés (et maximum) par utilisateur et 1 calcul maximum par utilisateur
+
+----------------------------------------------------------------------------
+
+
+/usr/bin/xauth:  file /home_lct/dtraore/.Xauthority does not exist
+dtraore@master:~ $ ls
+Bureau  Documents  H2O_1202  He_1202  Images  Modèles  Musique  perl5  programs  Public  Téléchargements  test2_qp  tests_qp  Vidéos
+dtraore@master:~ $ cd H2O_1202/
+dtraore@master:~/H2O_1202 $ ls
+H2O.ezfio  H2O.ezfio.mol  H2O.xyz
+dtraore@master:~/H2O_1202 $ molden H2O.ezfio.mol 
+********************************************************************************
+   DATA  PROVIDED BY INPUT FILE 
+           CENTER OF GRAPH           AXIS OF GRAPH       RADII
+         PX      PY      PZ        CX      CY      CZ    EDX   EDY   EDY
+        0.000   0.000   0.000     0.000   0.000   1.000   2.3   2.3   2.3
+
+
+
+********************************************************************************
+
+
+                         COORDINATES
+                    used for orbitals/density
+
+                    X         Y         Z
+
+             1 H   -0.757000    0.586000    0.000000
+             2 H    0.757000    0.586000    0.000000
+             3 O    0.000000    0.000000    0.000000
+ 
+                        Mulliken Charges
+                        ================
+ 
+               H  -1.0993
+               H  -1.0993
+               O  -5.9889
+ 
+Sum of Mulliken Charges:  -8.1875
+ 
+                        Dipole moment (Debye)
+                        =======================
+                       X           Y           Z          Scalar
+ 
+Nuclear               0.0000      2.9784      0.0000      2.9784
+Electronic           -0.0000     -6.7386      0.0000      6.7386
+Total                -0.0000     -3.7602      0.0000      3.7602
+ 
+
+
+          M.O. NUMBER    5  IS TO BE PLOTTED
+
+
+
+***** GRID POINT DENSITY/INTENSITY *****
+
+
+ MAXIMUM DENSITY/INTENSITY =       0.00000
+ MINIMUM DENSITY/INTENSITY =      -0.00000
+
+ON A TOTAL OF  61* 61 POINTS
+ DENSITY OF PLOT IS VERY LOW- SUGGEST YOU CHECK YOUR DATA
+
+
+ELECTR. DENSITY/INTENSITY AT ATOMS LYING IN THE PLANE OF THE PLOT
+
+
+  ATOM    X         Y         Z           VALUE
+
+
+
+     H  -0.75700   0.58600   0.00000       -0.00000
+     H   0.75700   0.58600   0.00000       -0.00000
+     O   0.00000   0.00000   0.00000       -0.00000
+
+
+          M.O. NUMBER    1  IS TO BE PLOTTED
+
+
+
+***** GRID POINT DENSITY/INTENSITY *****
+
+
+ MAXIMUM DENSITY/INTENSITY =      -0.00039
+ MINIMUM DENSITY/INTENSITY =     -11.90207
+
+ON A TOTAL OF  61* 61 POINTS
+
+
+          M.O. NUMBER    2  IS TO BE PLOTTED
+
+
+
+***** GRID POINT DENSITY/INTENSITY *****
+
+
+ MAXIMUM DENSITY/INTENSITY =       0.83828
+ MINIMUM DENSITY/INTENSITY =      -4.68406
+
+ON A TOTAL OF  61* 61 POINTS
+ Contour Value =   0.10000000000000001     
+  
+ Progress Monitor [1-61]  1                                                                          
+  
+ Progress Monitor [1-61]  2                                                                          
+  
+ Progress Monitor [1-61]  3                                                                          
+  
+ Progress Monitor [1-61]  4                                                                          
+  
+ Progress Monitor [1-61]  5                                                                          
+  
+ Progress Monitor [1-61]  6                                                                          
+  
+ Progress Monitor [1-61]  7                                                                          
+  
+ Progress Monitor [1-61]  8                                                                          
+  
+ Progress Monitor [1-61]  9                                                                          
+  
+ Progress Monitor [1-61] 10                                                                          
+  
+ Progress Monitor [1-61] 11                                                                          
+  
+ Progress Monitor [1-61] 12                                                                          
+  
+ Progress Monitor [1-61] 13                                                                          
+  
+ Progress Monitor [1-61] 14                                                                          
+  
+ Progress Monitor [1-61] 15                                                                          
+  
+ Progress Monitor [1-61] 16                                                                          
+  
+ Progress Monitor [1-61] 17                                                                          
+  
+ Progress Monitor [1-61] 18                                                                          
+  
+ Progress Monitor [1-61] 19                                                                          
+  
+ Progress Monitor [1-61] 20                                                                          
+  
+ Progress Monitor [1-61] 21                                                                          
+  
+ Progress Monitor [1-61] 22                                                                          
+  
+ Progress Monitor [1-61] 23                                                                          
+  
+ Progress Monitor [1-61] 24                                                                          
+  
+ Progress Monitor [1-61] 25                                                                          
+  
+ Progress Monitor [1-61] 26                                                                          
+  
+ Progress Monitor [1-61] 27                                                                          
+  
+ Progress Monitor [1-61] 28                                                                          
+  
+ Progress Monitor [1-61] 29                                                                          
+  
+ Progress Monitor [1-61] 30                                                                          
+  
+ Progress Monitor [1-61] 31                                                                          
+  
+ Progress Monitor [1-61] 32                                                                          
+  
+ Progress Monitor [1-61] 33                                                                          
+  
+ Progress Monitor [1-61] 34                                                                          
+  
+ Progress Monitor [1-61] 35                                                                          
+  
+ Progress Monitor [1-61] 36                                                                          
+  
+ Progress Monitor [1-61] 37                                                                          
+  
+ Progress Monitor [1-61] 38                                                                          
+  
+ Progress Monitor [1-61] 39                                                                          
+  
+ Progress Monitor [1-61] 40                                                                          
+  
+ Progress Monitor [1-61] 41                                                                          
+  
+ Progress Monitor [1-61] 42                                                                          
+  
+ Progress Monitor [1-61] 43                                                                          
+  
+ Progress Monitor [1-61] 44                                                                          
+  
+ Progress Monitor [1-61] 45                                                                          
+  
+ Progress Monitor [1-61] 46                                                                          
+  
+ Progress Monitor [1-61] 47                                                                          
+  
+ Progress Monitor [1-61] 48                                                                          
+  
+ Progress Monitor [1-61] 49                                                                          
+  
+ Progress Monitor [1-61] 50                                                                          
+  
+ Progress Monitor [1-61] 51                                                                          
+  
+ Progress Monitor [1-61] 52                                                                          
+  
+ Progress Monitor [1-61] 53                                                                          
+  
+ Progress Monitor [1-61] 54                                                                          
+  
+ Progress Monitor [1-61] 55                                                                          
+  
+ Progress Monitor [1-61] 56                                                                          
+  
+ Progress Monitor [1-61] 57                                                                          
+  
+ Progress Monitor [1-61] 58                                                                          
+  
+ Progress Monitor [1-61] 59                                                                          
+  
+ Progress Monitor [1-61] 60                                                                          
+  
+ Progress Monitor [1-61] 61                                                                          
+
+
+          M.O. NUMBER    3  IS TO BE PLOTTED
+
+
+
+***** GRID POINT DENSITY/INTENSITY *****
+
+
+ MAXIMUM DENSITY/INTENSITY =       0.87133
+ MINIMUM DENSITY/INTENSITY =      -0.87133
+
+ON A TOTAL OF  61* 61 POINTS
+ Contour Value =   0.35000000000000003     
+  
+ Progress Monitor [1-61]  1                                                                          
+  
+ Progress Monitor [1-61]  2                                                                          
+  
+ Progress Monitor [1-61]  3                                                                          
+  
+ Progress Monitor [1-61]  4                                                                          
+  
+ Progress Monitor [1-61]  5                                                                          
+  
+ Progress Monitor [1-61]  6                                                                          
+  
+ Progress Monitor [1-61]  7                                                                          
+  
+ Progress Monitor [1-61]  8                                                                          
+  
+ Progress Monitor [1-61]  9                                                                          
+  
+ Progress Monitor [1-61] 10                                                                          
+  
+ Progress Monitor [1-61] 11                                                                          
+  
+ Progress Monitor [1-61] 12                                                                          
+  
+ Progress Monitor [1-61] 13                                                                          
+  
+ Progress Monitor [1-61] 14                                                                          
+  
+ Progress Monitor [1-61] 15                                                                          
+  
+ Progress Monitor [1-61] 16                                                                          
+  
+ Progress Monitor [1-61] 17                                                                          
+  
+ Progress Monitor [1-61] 18                                                                          
+  
+ Progress Monitor [1-61] 19                                                                          
+  
+ Progress Monitor [1-61] 20                                                                          
+  
+ Progress Monitor [1-61] 21                                                                          
+  
+ Progress Monitor [1-61] 22                                                                          
+  
+ Progress Monitor [1-61] 23                                                                          
+  
+ Progress Monitor [1-61] 24                                                                          
+  
+ Progress Monitor [1-61] 25                                                                          
+  
+ Progress Monitor [1-61] 26                                                                          
+  
+ Progress Monitor [1-61] 27                                                                          
+  
+ Progress Monitor [1-61] 28                                                                          
+  
+ Progress Monitor [1-61] 29                                                                          
+  
+ Progress Monitor [1-61] 30                                                                          
+  
+ Progress Monitor [1-61] 31                                                                          
+  
+ Progress Monitor [1-61] 32                                                                          
+  
+ Progress Monitor [1-61] 33                                                                          
+  
+ Progress Monitor [1-61] 34                                                                          
+  
+ Progress Monitor [1-61] 35                                                                          
+  
+ Progress Monitor [1-61] 36                                                                          
+  
+ Progress Monitor [1-61] 37                                                                          
+  
+ Progress Monitor [1-61] 38                                                                          
+  
+ Progress Monitor [1-61] 39                                                                          
+  
+ Progress Monitor [1-61] 40                                                                          
+  
+ Progress Monitor [1-61] 41                                                                          
+  
+ Progress Monitor [1-61] 42                                                                          
+  
+ Progress Monitor [1-61] 43                                                                          
+  
+ Progress Monitor [1-61] 44                                                                          
+  
+ Progress Monitor [1-61] 45                                                                          
+  
+ Progress Monitor [1-61] 46                                                                          
+  
+ Progress Monitor [1-61] 47                                                                          
+  
+ Progress Monitor [1-61] 48                                                                          
+  
+ Progress Monitor [1-61] 49                                                                          
+  
+ Progress Monitor [1-61] 50                                                                          
+  
+ Progress Monitor [1-61] 51                                                                          
+  
+ Progress Monitor [1-61] 52                                                                          
+  
+ Progress Monitor [1-61] 53                                                                          
+  
+ Progress Monitor [1-61] 54                                                                          
+  
+ Progress Monitor [1-61] 55                                                                          
+  
+ Progress Monitor [1-61] 56                                                                          
+  
+ Progress Monitor [1-61] 57                                                                          
+  
+ Progress Monitor [1-61] 58                                                                          
+  
+ Progress Monitor [1-61] 59                                                                          
+  
+ Progress Monitor [1-61] 60                                                                          
+  
+ Progress Monitor [1-61] 61                                                                          
+dtraore@master:~/H2O_1202 $ ls
+H2O.ezfio  H2O.ezfio.mol  H2O.xyz
+dtraore@master:~/H2O_1202 $ cd ../
+dtraore@master:~ $ ls
+Bureau  Documents  H2O_1202  He_1202  Images  Modèles  Musique  perl5  programs  Public  Téléchargements  test2_qp  tests_qp  Vidéos
+dtraore@master:~ $ cd Hze^C
+dtraore@master:~ $ cd He_1202/
+dtraore@master:~/He_1202 $ ls
+He.1.ezfio.cis.out  He.1.ezfio.scf.out  He.2.ezfio.cisd.out  He.3.ezfio.diagonalize.out  He.ezfio  He.ezfio.mol  He.xyz
+dtraore@master:~/He_1202 $ molden He.ezfio.mol 
+********************************************************************************
+   DATA  PROVIDED BY INPUT FILE 
+           CENTER OF GRAPH           AXIS OF GRAPH       RADII
+         PX      PY      PZ        CX      CY      CZ    EDX   EDY   EDY
+        0.000   0.000   0.000     0.000   0.000   0.000   3.0   3.0   3.0
+
+
+
+********************************************************************************
+
+
+                         COORDINATES
+                    used for orbitals/density
+
+                    X         Y         Z
+
+             1He    0.000000    0.000000    0.000000
+ 
+                        Mulliken Charges
+                        ================
+ 
+              He  -1.8278
+ 
+Sum of Mulliken Charges:  -1.8278
+ 
+                        Dipole moment (Debye)
+                        =======================
+                       X           Y           Z          Scalar
+ 
+Nuclear               0.0000      0.0000      0.0000      0.0000
+Electronic            0.0000      0.0000      0.0000      0.0000
+Total                 0.0000      0.0000      0.0000      0.0000
+ 
+
+
+          M.O. NUMBER    1  IS TO BE PLOTTED
+
+
+
+***** GRID POINT DENSITY/INTENSITY *****
+
+
+ MAXIMUM DENSITY/INTENSITY =       1.94636
+ MINIMUM DENSITY/INTENSITY =       0.04111
+
+ON A TOTAL OF  61* 61 POINTS
+
+
+ELECTR. DENSITY/INTENSITY AT ATOMS LYING IN THE PLANE OF THE PLOT
+
+
+  ATOM    X         Y         Z           VALUE
+
+
+
+    He   0.00000   0.00000   0.00000        1.94636
+ Contour Value =   0.10000000000000001     
+  
+ Progress Monitor [1-61]  1                                                                          
+  
+ Progress Monitor [1-61]  2                                                                          
+  
+ Progress Monitor [1-61]  3                                                                          
+  
+ Progress Monitor [1-61]  4                                                                          
+  
+ Progress Monitor [1-61]  5                                                                          
+  
+ Progress Monitor [1-61]  6                                                                          
+  
+ Progress Monitor [1-61]  7                                                                          
+  
+ Progress Monitor [1-61]  8                                                                          
+  
+ Progress Monitor [1-61]  9                                                                          
+  
+ Progress Monitor [1-61] 10                                                                          
+  
+ Progress Monitor [1-61] 11                                                                          
+  
+ Progress Monitor [1-61] 12                                                                          
+  
+ Progress Monitor [1-61] 13                                                                          
+  
+ Progress Monitor [1-61] 14                                                                          
+  
+ Progress Monitor [1-61] 15                                                                          
+  
+ Progress Monitor [1-61] 16                                                                          
+  
+ Progress Monitor [1-61] 17                                                                          
+  
+ Progress Monitor [1-61] 18                                                                          
+  
+ Progress Monitor [1-61] 19                                                                          
+  
+ Progress Monitor [1-61] 20                                                                          
+  
+ Progress Monitor [1-61] 21                                                                          
+  
+ Progress Monitor [1-61] 22                                                                          
+  
+ Progress Monitor [1-61] 23                                                                          
+  
+ Progress Monitor [1-61] 24                                                                          
+  
+ Progress Monitor [1-61] 25                                                                          
+  
+ Progress Monitor [1-61] 26                                                                          
+  
+ Progress Monitor [1-61] 27                                                                          
+  
+ Progress Monitor [1-61] 28                                                                          
+  
+ Progress Monitor [1-61] 29                                                                          
+  
+ Progress Monitor [1-61] 30                                                                          
+  
+ Progress Monitor [1-61] 31                                                                          
+  
+ Progress Monitor [1-61] 32                                                                          
+  
+ Progress Monitor [1-61] 33                                                                          
+  
+ Progress Monitor [1-61] 34                                                                          
+  
+ Progress Monitor [1-61] 35                                                                          
+  
+ Progress Monitor [1-61] 36                                                                          
+  
+ Progress Monitor [1-61] 37                                                                          
+  
+ Progress Monitor [1-61] 38                                                                          
+  
+ Progress Monitor [1-61] 39                                                                          
+  
+ Progress Monitor [1-61] 40                                                                          
+  
+ Progress Monitor [1-61] 41                                                                          
+  
+ Progress Monitor [1-61] 42                                                                          
+  
+ Progress Monitor [1-61] 43                                                                          
+  
+ Progress Monitor [1-61] 44                                                                          
+  
+ Progress Monitor [1-61] 45                                                                          
+  
+ Progress Monitor [1-61] 46                                                                          
+  
+ Progress Monitor [1-61] 47                                                                          
+  
+ Progress Monitor [1-61] 48                                                                          
+  
+ Progress Monitor [1-61] 49                                                                          
+  
+ Progress Monitor [1-61] 50                                                                          
+  
+ Progress Monitor [1-61] 51                                                                          
+  
+ Progress Monitor [1-61] 52                                                                          
+  
+ Progress Monitor [1-61] 53                                                                          
+  
+ Progress Monitor [1-61] 54                                                                          
+  
+ Progress Monitor [1-61] 55                                                                          
+  
+ Progress Monitor [1-61] 56                                                                          
+  
+ Progress Monitor [1-61] 57                                                                          
+  
+ Progress Monitor [1-61] 58                                                                          
+  
+ Progress Monitor [1-61] 59                                                                          
+  
+ Progress Monitor [1-61] 60                                                                          
+  
+ Progress Monitor [1-61] 61                                                                          
+
+
+          M.O. NUMBER    2  IS TO BE PLOTTED
+
+
+
+***** GRID POINT DENSITY/INTENSITY *****
+
+
+ MAXIMUM DENSITY/INTENSITY =       0.10850
+ MINIMUM DENSITY/INTENSITY =      -3.14888
+
+ON A TOTAL OF  61* 61 POINTS
+ Contour Value =   0.80000000000000004     
+  
+ Progress Monitor [1-61]  1                                                                          
+  
+ Progress Monitor [1-61]  2                                                                          
+  
+ Progress Monitor [1-61]  3                                                                          
+  
+ Progress Monitor [1-61]  4                                                                          
+  
+ Progress Monitor [1-61]  5                                                                          
+  
+ Progress Monitor [1-61]  6                                                                          
+  
+ Progress Monitor [1-61]  7                                                                          
+  
+ Progress Monitor [1-61]  8                                                                          
+  
+ Progress Monitor [1-61]  9                                                                          
+  
+ Progress Monitor [1-61] 10                                                                          
+  
+ Progress Monitor [1-61] 11                                                                          
+  
+ Progress Monitor [1-61] 12                                                                          
+  
+ Progress Monitor [1-61] 13                                                                          
+  
+ Progress Monitor [1-61] 14                                                                          
+  
+ Progress Monitor [1-61] 15                                                                          
+  
+ Progress Monitor [1-61] 16                                                                          
+  
+ Progress Monitor [1-61] 17                                                                          
+  
+ Progress Monitor [1-61] 18                                                                          
+  
+ Progress Monitor [1-61] 19                                                                          
+  
+ Progress Monitor [1-61] 20                                                                          
+  
+ Progress Monitor [1-61] 21                                                                          
+  
+ Progress Monitor [1-61] 22                                                                          
+  
+ Progress Monitor [1-61] 23                                                                          
+  
+ Progress Monitor [1-61] 24                                                                          
+  
+ Progress Monitor [1-61] 25                                                                          
+  
+ Progress Monitor [1-61] 26                                                                          
+  
+ Progress Monitor [1-61] 27                                                                          
+  
+ Progress Monitor [1-61] 28                                                                          
+  
+ Progress Monitor [1-61] 29                                                                          
+  
+ Progress Monitor [1-61] 30                                                                          
+  
+ Progress Monitor [1-61] 31                                                                          
+  
+ Progress Monitor [1-61] 32                                                                          
+  
+ Progress Monitor [1-61] 33                                                                          
+  
+ Progress Monitor [1-61] 34                                                                          
+  
+ Progress Monitor [1-61] 35                                                                          
+  
+ Progress Monitor [1-61] 36                                                                          
+  
+ Progress Monitor [1-61] 37                                                                          
+  
+ Progress Monitor [1-61] 38                                                                          
+  
+ Progress Monitor [1-61] 39                                                                          
+  
+ Progress Monitor [1-61] 40                                                                          
+  
+ Progress Monitor [1-61] 41                                                                          
+  
+ Progress Monitor [1-61] 42                                                                          
+  
+ Progress Monitor [1-61] 43                                                                          
+  
+ Progress Monitor [1-61] 44                                                                          
+  
+ Progress Monitor [1-61] 45                                                                          
+  
+ Progress Monitor [1-61] 46                                                                          
+  
+ Progress Monitor [1-61] 47                                                                          
+  
+ Progress Monitor [1-61] 48                                                                          
+  
+ Progress Monitor [1-61] 49                                                                          
+  
+ Progress Monitor [1-61] 50                                                                          
+  
+ Progress Monitor [1-61] 51                                                                          
+  
+ Progress Monitor [1-61] 52                                                                          
+  
+ Progress Monitor [1-61] 53                                                                          
+  
+ Progress Monitor [1-61] 54                                                                          
+  
+ Progress Monitor [1-61] 55                                                                          
+  
+ Progress Monitor [1-61] 56                                                                          
+  
+ Progress Monitor [1-61] 57                                                                          
+  
+ Progress Monitor [1-61] 58                                                                          
+  
+ Progress Monitor [1-61] 59                                                                          
+  
+ Progress Monitor [1-61] 60                                                                          
+  
+ Progress Monitor [1-61] 61                                                                          
+dtraore@master:~/He_1202 $ molden He.ezfio.mol 
+********************************************************************************
+   DATA  PROVIDED BY INPUT FILE 
+           CENTER OF GRAPH           AXIS OF GRAPH       RADII
+         PX      PY      PZ        CX      CY      CZ    EDX   EDY   EDY
+        0.000   0.000   0.000     0.000   0.000   0.000   3.0   3.0   3.0
+
+
+
+********************************************************************************
+
+
+                         COORDINATES
+                    used for orbitals/density
+
+                    X         Y         Z
+
+             1He    0.000000    0.000000    0.000000
+ 
+                        Mulliken Charges
+                        ================
+ 
+              He  -1.8278
+ 
+Sum of Mulliken Charges:  -1.8278
+ 
+                        Dipole moment (Debye)
+                        =======================
+                       X           Y           Z          Scalar
+ 
+Nuclear               0.0000      0.0000      0.0000      0.0000
+Electronic            0.0000      0.0000      0.0000      0.0000
+Total                 0.0000      0.0000      0.0000      0.0000
+ 
+
+
+          M.O. NUMBER    1  IS TO BE PLOTTED
+
+
+
+***** GRID POINT DENSITY/INTENSITY *****
+
+
+ MAXIMUM DENSITY/INTENSITY =       1.94636
+ MINIMUM DENSITY/INTENSITY =       0.04111
+
+ON A TOTAL OF  61* 61 POINTS
+
+
+ELECTR. DENSITY/INTENSITY AT ATOMS LYING IN THE PLANE OF THE PLOT
+
+
+  ATOM    X         Y         Z           VALUE
+
+
+
+    He   0.00000   0.00000   0.00000        1.94636
+
+
+          M.O. NUMBER    2  IS TO BE PLOTTED
+
+
+
+***** GRID POINT DENSITY/INTENSITY *****
+
+
+ MAXIMUM DENSITY/INTENSITY =       0.10850
+ MINIMUM DENSITY/INTENSITY =      -3.14888
+
+ON A TOTAL OF  61* 61 POINTS
+
+
+          M.O. NUMBER    3  IS TO BE PLOTTED
+
+
+
+***** GRID POINT DENSITY/INTENSITY *****
+
+
+ MAXIMUM DENSITY/INTENSITY =       0.00000
+ MINIMUM DENSITY/INTENSITY =       0.00000
+
+ON A TOTAL OF  61* 61 POINTS
+ DENSITY OF PLOT IS VERY LOW- SUGGEST YOU CHECK YOUR DATA
+
+
+          M.O. NUMBER    4  IS TO BE PLOTTED
+
+
+
+***** GRID POINT DENSITY/INTENSITY *****
+
+
+ MAXIMUM DENSITY/INTENSITY =       0.73247
+ MINIMUM DENSITY/INTENSITY =      -0.73247
+
+ON A TOTAL OF  61* 61 POINTS
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x7F42F2DE2697
+#1  0x7F42F2DE2CDE
+#2  0x7F42F22E726F
+#3  0x44D708 in hidedr_
+#4  0x4BDB7D in dendd_
+#5  0x5BD683 in den3d_
+#6  0x4209D9 in MAIN__ at molden.f:?
+Erreur de segmentation (core dumped)
+dtraore@master:~/He_1202 $ molden He.ezfio.mol 
+********************************************************************************
+   DATA  PROVIDED BY INPUT FILE 
+           CENTER OF GRAPH           AXIS OF GRAPH       RADII
+         PX      PY      PZ        CX      CY      CZ    EDX   EDY   EDY
+        0.000   0.000   0.000     0.000   0.000   0.000   3.0   3.0   3.0
+
+
+
+********************************************************************************
+
+
+                         COORDINATES
+                    used for orbitals/density
+
+                    X         Y         Z
+
+             1He    0.000000    0.000000    0.000000
+ 
+                        Mulliken Charges
+                        ================
+ 
+              He  -1.8278
+ 
+Sum of Mulliken Charges:  -1.8278
+ 
+                        Dipole moment (Debye)
+                        =======================
+                       X           Y           Z          Scalar
+ 
+Nuclear               0.0000      0.0000      0.0000      0.0000
+Electronic            0.0000      0.0000      0.0000      0.0000
+Total                 0.0000      0.0000      0.0000      0.0000
+ 
+
+
+          M.O. NUMBER    1  IS TO BE PLOTTED
+
+
+
+***** GRID POINT DENSITY/INTENSITY *****
+
+
+ MAXIMUM DENSITY/INTENSITY =       1.94636
+ MINIMUM DENSITY/INTENSITY =       0.04111
+
+ON A TOTAL OF  61* 61 POINTS
+
+
+ELECTR. DENSITY/INTENSITY AT ATOMS LYING IN THE PLANE OF THE PLOT
+
+
+  ATOM    X         Y         Z           VALUE
+
+
+
+    He   0.00000   0.00000   0.00000        1.94636
+
+
+          M.O. NUMBER    4  IS TO BE PLOTTED
+
+
+
+***** GRID POINT DENSITY/INTENSITY *****
+
+
+ MAXIMUM DENSITY/INTENSITY =       0.73247
+ MINIMUM DENSITY/INTENSITY =      -0.73247
+
+ON A TOTAL OF  61* 61 POINTS
+
+
+          M.O. NUMBER    5  IS TO BE PLOTTED
+
+
+
+***** GRID POINT DENSITY/INTENSITY *****
+
+
+ MAXIMUM DENSITY/INTENSITY =       0.73247
+ MINIMUM DENSITY/INTENSITY =      -0.73247
+
+ON A TOTAL OF  61* 61 POINTS
+
+
+          M.O. NUMBER    3  IS TO BE PLOTTED
+
+
+
+***** GRID POINT DENSITY/INTENSITY *****
+
+
+ MAXIMUM DENSITY/INTENSITY =       0.00000
+ MINIMUM DENSITY/INTENSITY =       0.00000
+
+ON A TOTAL OF  61* 61 POINTS
+ DENSITY OF PLOT IS VERY LOW- SUGGEST YOU CHECK YOUR DATA
+ Contour Value =   0.10000000000000001     
+  
+ Progress Monitor [1-61]  1                                                                          
+  
+ Progress Monitor [1-61]  2                                                                          
+  
+ Progress Monitor [1-61]  3                                                                          
+  
+ Progress Monitor [1-61]  4                                                                          
+  
+ Progress Monitor [1-61]  5                                                                          
+  
+ Progress Monitor [1-61]  6                                                                          
+  
+ Progress Monitor [1-61]  7                                                                          
+  
+ Progress Monitor [1-61]  8                                                                          
+  
+ Progress Monitor [1-61]  9                                                                          
+  
+ Progress Monitor [1-61] 10                                                                          
+  
+ Progress Monitor [1-61] 11                                                                          
+  
+ Progress Monitor [1-61] 12                                                                          
+  
+ Progress Monitor [1-61] 13                                                                          
+  
+ Progress Monitor [1-61] 14                                                                          
+  
+ Progress Monitor [1-61] 15                                                                          
+  
+ Progress Monitor [1-61] 16                                                                          
+  
+ Progress Monitor [1-61] 17                                                                          
+  
+ Progress Monitor [1-61] 18                                                                          
+  
+ Progress Monitor [1-61] 19                                                                          
+  
+ Progress Monitor [1-61] 20                                                                          
+  
+ Progress Monitor [1-61] 21                                                                          
+  
+ Progress Monitor [1-61] 22                                                                          
+  
+ Progress Monitor [1-61] 23                                                                          
+  
+ Progress Monitor [1-61] 24                                                                          
+  
+ Progress Monitor [1-61] 25                                                                          
+  
+ Progress Monitor [1-61] 26                                                                          
+  
+ Progress Monitor [1-61] 27                                                                          
+  
+ Progress Monitor [1-61] 28                                                                          
+  
+ Progress Monitor [1-61] 29                                                                          
+  
+ Progress Monitor [1-61] 30                                                                          
+  
+ Progress Monitor [1-61] 31                                                                          
+  
+ Progress Monitor [1-61] 32                                                                          
+  
+ Progress Monitor [1-61] 33                                                                          
+  
+ Progress Monitor [1-61] 34                                                                          
+  
+ Progress Monitor [1-61] 35                                                                          
+  
+ Progress Monitor [1-61] 36                                                                          
+  
+ Progress Monitor [1-61] 37                                                                          
+  
+ Progress Monitor [1-61] 38                                                                          
+  
+ Progress Monitor [1-61] 39                                                                          
+  
+ Progress Monitor [1-61] 40                                                                          
+  
+ Progress Monitor [1-61] 41                                                                          
+  
+ Progress Monitor [1-61] 42                                                                          
+  
+ Progress Monitor [1-61] 43                                                                          
+  
+ Progress Monitor [1-61] 44                                                                          
+  
+ Progress Monitor [1-61] 45                                                                          
+  
+ Progress Monitor [1-61] 46                                                                          
+  
+ Progress Monitor [1-61] 47                                                                          
+  
+ Progress Monitor [1-61] 48                                                                          
+  
+ Progress Monitor [1-61] 49                                                                          
+  
+ Progress Monitor [1-61] 50                                                                          
+  
+ Progress Monitor [1-61] 51                                                                          
+  
+ Progress Monitor [1-61] 52                                                                          
+  
+ Progress Monitor [1-61] 53                                                                          
+  
+ Progress Monitor [1-61] 54                                                                          
+  
+ Progress Monitor [1-61] 55                                                                          
+  
+ Progress Monitor [1-61] 56                                                                          
+  
+ Progress Monitor [1-61] 57                                                                          
+  
+ Progress Monitor [1-61] 58                                                                          
+  
+ Progress Monitor [1-61] 59                                                                          
+  
+ Progress Monitor [1-61] 60                                                                          
+  
+ Progress Monitor [1-61] 61                                                                          
+dtraore@master:~/He_1202 $ ls
+He.1.ezfio.cis.out  He.1.ezfio.scf.out  He.2.ezfio.cisd.out  He.3.ezfio.diagonalize.out  He.ezfio  He.ezfio.mol  He.xyz
+dtraore@master:~/He_1202 $ molden He.ezfio.mol 
+********************************************************************************
+   DATA  PROVIDED BY INPUT FILE 
+           CENTER OF GRAPH           AXIS OF GRAPH       RADII
+         PX      PY      PZ        CX      CY      CZ    EDX   EDY   EDY
+        0.000   0.000   0.000     0.000   0.000   0.000   3.0   3.0   3.0
+
+
+
+********************************************************************************
+
+
+                         COORDINATES
+                    used for orbitals/density
+
+                    X         Y         Z
+
+             1He    0.000000    0.000000    0.000000
+ 
+                        Mulliken Charges
+                        ================
+ 
+              He  -1.8303
+ 
+Sum of Mulliken Charges:  -1.8303
+ 
+                        Dipole moment (Debye)
+                        =======================
+                       X           Y           Z          Scalar
+ 
+Nuclear               0.0000      0.0000      0.0000      0.0000
+Electronic            0.0000      0.0000      0.0000      0.0000
+Total                 0.0000      0.0000      0.0000      0.0000
+ 
+
+
+          M.O. NUMBER    1  IS TO BE PLOTTED
+
+
+
+***** GRID POINT DENSITY/INTENSITY *****
+
+
+ MAXIMUM DENSITY/INTENSITY =       1.94799
+ MINIMUM DENSITY/INTENSITY =       0.04111
+
+ON A TOTAL OF  61* 61 POINTS
+
+
+ELECTR. DENSITY/INTENSITY AT ATOMS LYING IN THE PLANE OF THE PLOT
+
+
+  ATOM    X         Y         Z           VALUE
+
+
+
+    He   0.00000   0.00000   0.00000        1.94799
+
+
+          M.O. NUMBER    2  IS TO BE PLOTTED
+
+
+
+***** GRID POINT DENSITY/INTENSITY *****
+
+
+ MAXIMUM DENSITY/INTENSITY =       0.10854
+ MINIMUM DENSITY/INTENSITY =      -3.15514
+
+ON A TOTAL OF  61* 61 POINTS
+dtraore@master:~/He_1202 $ cd 
+dtraore@master:~ $ ls
+Bureau  Documents  H2O_1202  He_1202  Images  Modèles  Musique  perl5  programs  Public  Téléchargements  test2_qp  tests_qp  Vidéos
+dtraore@master:~ $ cd programs/qp2/
+dtraore@master:~/programs/qp2 $ ls
+bin          CITATION.cff  configure  docs  external   include      lib    libexec  Makefile  ocaml    quantum_package.rc  REPLACE  share  tests
+build.ninja  config        data       etc   GITHUB.md  INSTALL.rst  lib64  LICENSE  man       plugins  README.md           scripts  src    TODO
+dtraore@master:~/programs/qp2 $ ./bin/qpsh 
+
+                     )
+   (              ( /(
+ ( )\  `  )   (   )\())
+ )(( ) /(/(   )\ ((_)\
+((_)_)((_)_\ ((_)| |(_)
+/ _` || '_ \)(_-<| ' \
+\__, || .__/ /__/|_||_|
+   |_||_|
+
+
+   -- Quantum  Package  Shell --
+
+|>
+dtraore@master:~/programs/qp2 $ cd plugins/
+|>
+dtraore@master:~/programs/qp2/plugins $ ls
+local
+|>
+dtraore@master:~/programs/qp2/plugins $ cd ../
+|>
+dtraore@master:~/programs/qp2 $ ls
+bin          CITATION.cff  configure  docs  external   include      lib    libexec  Makefile  ocaml    quantum_package.rc  REPLACE  share  tests
+build.ninja  config        data       etc   GITHUB.md  INSTALL.rst  lib64  LICENSE  man       plugins  README.md           scripts  src    TODO
+|>
+dtraore@master:~/programs/qp2 $ ls plugins/
+local
+|>
+dtraore@master:~/programs/qp2 $ qp 
+convert_output_to_ezfio  create_ezfio             -h                       man                      plugins                  set_file                 unset_file               update
+|>
+dtraore@master:~/programs/qp2 $ qp plugins 
+create     download   install    list       uninstall  
+|>
+dtraore@master:~/programs/qp2 $ qp plugins -h 
+Usage:
+       qp_plugins list [-iuq]
+       qp_plugins download <url> [-n <name>]
+       qp_plugins install <name>...
+       qp_plugins uninstall <name>
+       qp_plugins update [-r <repo>]
+       qp_plugins create -n <name> [-r <repo>] [<needed_modules>...]
+
+Options:
+    list                      List
+      -i --installed           only the installed plugins
+      -u --uninstalled         only the uninstalled plugins
+      -q --repositories        the external repositories
+
+    download <url>            Download an external repository.
+                              The URL points to a tar.gz file or a git repository:
+                              http://example.com/site/example.tar.gz
+                              git@gitlab.com:user/example_repository
+
+    install                   Install a plugin
+
+    uninstall                 Uninstall a plugin
+
+    update                    Update the repository 
+
+    create
+      -n --name=<name>        Create a new plugin named <name>
+      -r --repository=<repo>  Name of the repository in which to create the plugin
+|>
+dtraore@master:~/programs/qp2 $ qp plugins create -n first_test 
+Created plugin:
+/nas/home_lct/dtraore/programs/qp2/plugins/local/first_test 
+
+Needed modules:
+[] 
+
+This corresponds to using the following modules:
+[] 
+
+Which is reduced to:
+[] 
+
+Installation     [ OK ]
+
+|>
+dtraore@master:~/programs/qp2 $ ls 
+bin          CITATION.cff  configure  docs  external   include      lib    libexec  Makefile  ocaml    quantum_package.rc  REPLACE  share  tests
+build.ninja  config        data       etc   GITHUB.md  INSTALL.rst  lib64  LICENSE  man       plugins  README.md           scripts  src    TODO
+|>
+dtraore@master:~/programs/qp2 $ cd plugins/
+|>
+dtraore@master:~/programs/qp2/plugins $ ls
+local
+|>
+dtraore@master:~/programs/qp2/plugins $ cd local/
+|>
+dtraore@master:~/programs/qp2/plugins/local $ ls
+first_test
+|>
+dtraore@master:~/programs/qp2/plugins/local $ cd first_test/
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ ls
+first_test.irp.f  NEED  README.rst
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ vi first_test.irp.f 
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ ls
+first_test.irp.f  NEED  README.rst
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ cd ../
+|>
+dtraore@master:~/programs/qp2/plugins/local $ ls
+first_test
+|>
+dtraore@master:~/programs/qp2/plugins/local $ qp plugins install first_test 
+Required dependencies:
+['first_test']
+Installation... [ OK ]
+|>
+dtraore@master:~/programs/qp2/plugins/local $ cd first_test/
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ ls
+build.ninja  first_test.irp.f  NEED  README.rst
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ ninja 
+[1/3] Compile only first_test
+[1/2] Create all the binaries from first_test
+[1/6] F   : irp_locks.irp.F90 -> irp_locks.irp.o
+FAILED: /home_lct/dtraore/programs/qp2/plugins/local/first_test/IRPF90_temp/irp_locks.irp.o 
+gfortran -ffree-line-length-none -I . -mavx -g -fPIC -fopenmp  -Ofast -mavx -c /home_lct/dtraore/programs/qp2/plugins/local/first_test/IRPF90_temp/irp_locks.irp.F90 -o /home_lct/dtraore/programs/qp2/plugins/local/first_test/IRPF90_temp/irp_locks.irp.o
+<interne>:0:0: erreur interne du compilateur: Instruction non permise
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <http://bugzilla.redhat.com/bugzilla> for instructions.
+[2/6] F   : first_test.irp.module.F90 -> first_test.irp.module.o
+FAILED: /home_lct/dtraore/programs/qp2/plugins/local/first_test/IRPF90_temp/first_test.irp.module.o 
+gfortran -ffree-line-length-none -I . -mavx -g -fPIC -fopenmp  -Ofast -mavx -c /home_lct/dtraore/programs/qp2/plugins/local/first_test/IRPF90_temp/first_test.irp.module.F90 -o /home_lct/dtraore/programs/qp2/plugins/local/first_test/IRPF90_temp/first_test.irp.module.o
+<interne>:0:0: erreur interne du compilateur: Instruction non permise
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <http://bugzilla.redhat.com/bugzilla> for instructions.
+ninja: build stopped: subcommand failed.
+FAILED: /home_lct/dtraore/programs/qp2/plugins/local/first_test/first_test 
+cd /home_lct/dtraore/programs/qp2/plugins/local/first_test/IRPF90_temp ; ninja /home_lct/dtraore/programs/qp2/plugins/local/first_test/first_test && for i in /home_lct/dtraore/programs/qp2/plugins/local/first_test/first_test ; do [ -x $i ] && touch $i ; done
+ninja: build stopped: subcommand failed.
+FAILED: local 
+ninja -f /nas/home_lct/dtraore/programs/qp2/config/build.ninja module_first_test
+ninja: build stopped: subcommand failed.
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ module load intel2017 
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ ninja 
+[1/3] Compile only first_test
+[0/1] Create all the binaries from first_test
+[1/6] F   : irp_locks.irp.F90 -> irp_locks.irp.o
+FAILED: /home_lct/dtraore/programs/qp2/plugins/local/first_test/IRPF90_temp/irp_locks.irp.o 
+gfortran -ffree-line-length-none -I . -mavx -g -fPIC -fopenmp  -Ofast -mavx -c /home_lct/dtraore/programs/qp2/plugins/local/first_test/IRPF90_temp/irp_locks.irp.F90 -o /home_lct/dtraore/programs/qp2/plugins/local/first_test/IRPF90_temp/irp_locks.irp.o
+<interne>:0:0: erreur interne du compilateur: Instruction non permise
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <http://bugzilla.redhat.com/bugzilla> for instructions.
+[2/6] F   : first_test.irp.module.F90 -> first_test.irp.module.o
+FAILED: /home_lct/dtraore/programs/qp2/plugins/local/first_test/IRPF90_temp/first_test.irp.module.o 
+gfortran -ffree-line-length-none -I . -mavx -g -fPIC -fopenmp  -Ofast -mavx -c /home_lct/dtraore/programs/qp2/plugins/local/first_test/IRPF90_temp/first_test.irp.module.F90 -o /home_lct/dtraore/programs/qp2/plugins/local/first_test/IRPF90_temp/first_test.irp.module.o
+<interne>:0:0: erreur interne du compilateur: Instruction non permise
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <http://bugzilla.redhat.com/bugzilla> for instructions.
+ninja: build stopped: subcommand failed.
+FAILED: /home_lct/dtraore/programs/qp2/plugins/local/first_test/first_test 
+cd /home_lct/dtraore/programs/qp2/plugins/local/first_test/IRPF90_temp ; ninja /home_lct/dtraore/programs/qp2/plugins/local/first_test/first_test && for i in /home_lct/dtraore/programs/qp2/plugins/local/first_test/first_test ; do [ -x $i ] && touch $i ; done
+ninja: build stopped: subcommand failed.
+FAILED: local 
+ninja -f /nas/home_lct/dtraore/programs/qp2/config/build.ninja module_first_test
+ninja: build stopped: subcommand failed.
+|>
+(reverse-i-search)`lo': ^Ccate gfortran.so.4
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ module load GCC-7.3.0 
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ ninja 
+[1/3] Compile only first_test
+[0/1] Create all the binaries from first_test
+[6/6] Link: first_test
+/usr/bin/ld: warning: libgfortran.so.3, needed by /lib/../lib64/liblapack.so, may conflict with libgfortran.so.4
+[3/3] Updating OCaml executables
+make : on entre dans le répertoire « /home_lct/dtraore/programs/qp2/ocaml »
+./create_git_sha1.sh
+rm -f -- element_create_db
+ocamlbuild -j 0 -cflags "-g" -lflags "-g" -ocamlopt "opt -O3 -remove-unused-arguments -rounds 16 -inline 100 -inline-max-unroll 100" element_create_db.byte  -use-ocamlfind  
+# No parallelism done
+ln -s element_create_db.byte element_create_db
+/nas/home_lct/dtraore/programs/qp2/scripts/module/create_executables_list.sh
+/nas/home_lct/dtraore/programs/qp2/ocaml/element_create_db.byte
+rm -f -- qp_edit
+ocamlbuild -j 0 -cflags "-g" -lflags "-g" -ocamlopt "opt -O3 -remove-unused-arguments -rounds 16 -inline 100 -inline-max-unroll 100" qp_edit.native -use-ocamlfind 
+# No parallelism done
+ln -s qp_edit.native qp_edit
+rm -f -- qp_run
+ocamlbuild -j 0 -cflags "-g" -lflags "-g" -ocamlopt "opt -O3 -remove-unused-arguments -rounds 16 -inline 100 -inline-max-unroll 100" qp_run.native -use-ocamlfind 
+# No parallelism done
+ln -s qp_run.native qp_run
+make: on quitte le répertoire « /home_lct/dtraore/programs/qp2/ocaml »
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ vi é^Crst_test.irp.f 
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ vi ~/
+.bash_history    .bashrc          .config/         .esd_auth        He_1202/         .local/          .mozilla/        .pki/            .ssh/            tests_qp/        .viminfo         
+.bash_logout     Bureau/          .dbus/           .gnupg/          .ICEauthority    Modèles/         Musique/         programs/        Téléchargements/ Vidéos/          .Xauthority      
+.bash_profile    .cache/          Documents/       H2O_1202/        Images/          .moldenrc        perl5/           Public/          test2_qp/        .vim/            
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ vi ~/
+.bash_history    .bashrc          .config/         .esd_auth        He_1202/         .local/          .mozilla/        .pki/            .ssh/            tests_qp/        .viminfo         
+.bash_logout     Bureau/          .dbus/           .gnupg/          .ICEauthority    Modèles/         Musique/         programs/        Téléchargements/ Vidéos/          .Xauthority      
+.bash_profile    .cache/          Documents/       H2O_1202/        Images/          .moldenrc        perl5/           Public/          test2_qp/        .vim/            
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ vi ~/
+.bash_history    .bashrc          .config/         .esd_auth        He_1202/         .local/          .mozilla/        .pki/            .ssh/            tests_qp/        .viminfo         
+.bash_logout     Bureau/          .dbus/           .gnupg/          .ICEauthority    Modèles/         Musique/         programs/        Téléchargements/ Vidéos/          .Xauthority      
+.bash_profile    .cache/          Documents/       H2O_1202/        Images/          .moldenrc        perl5/           Public/          test2_qp/        .vim/            
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ vi ~/
+.bash_history    .bashrc          .config/         .esd_auth        He_1202/         .local/          .mozilla/        .pki/            .ssh/            tests_qp/        .viminfo         
+.bash_logout     Bureau/          .dbus/           .gnupg/          .ICEauthority    Modèles/         Musique/         programs/        Téléchargements/ Vidéos/          .Xauthority      
+.bash_profile    .cache/          Documents/       H2O_1202/        Images/          .moldenrc        perl5/           Public/          test2_qp/        .vim/            
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ vi ~/
+.bash_history    .bashrc          .config/         .esd_auth        He_1202/         .local/          .mozilla/        .pki/            .ssh/            tests_qp/        .viminfo         
+.bash_logout     Bureau/          .dbus/           .gnupg/          .ICEauthority    Modèles/         Musique/         programs/        Téléchargements/ Vidéos/          .Xauthority      
+.bash_profile    .cache/          Documents/       H2O_1202/        Images/          .moldenrc        perl5/           Public/          test2_qp/        .vim/            
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ vi ^C
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ cd 
+|>
+dtraore@master:~ $ ls
+Bureau  Documents  H2O_1202  He_1202  Images  Modèles  Musique  perl5  programs  Public  Téléchargements  test2_qp  tests_qp  Vidéos
+|>
+dtraore@master:~ $ ls ~/
+Bureau  Documents  H2O_1202  He_1202  Images  Modèles  Musique  perl5  programs  Public  Téléchargements  test2_qp  tests_qp  Vidéos
+|>
+dtraore@master:~ $ pwd
+/home_lct/dtraore
+|>
+dtraore@master:~ $ vi .bash
+.bash_history  .bash_logout   .bash_profile  .bashrc        
+|>
+dtraore@master:~ $ vi .bashrc 
+|>
+(reverse-i-search)`loa': module ^Cad intel2017 
+|>
+dtraore@master:~ $ vi .bashrc 
+|>
+dtraore@master:~ $ exit
+exit
+dtraore@master:~/programs/qp2 $ exit
+déconnexion
+Connection to master closed.
+dtraore@trudon:~/H2O_1202 $ ssh -X master 
+Last login: Thu Feb 13 14:39:59 2020 from trudon.lct.jussieu.fr
+19/11/2019
+==========
+
+     Files d'attente sur master (noeuds communs):
+     ============================================
+ 
+     L'accès aux files se fait automatiquement pour les noeuds communs,
+     en fonction des ressources demandées.
+
+     Ressources demandées : 1 noeud maximum - 16Gb de mémoire maximum :
+        qShort, si cput <= 50:00:00 (50 heures CPU)
+        qLong, si 50:00:00 < cput <= 500:00:00
+        qInf, si cput > 500:00:00
+
+     Ressources demandées : 1 noeud maximum - 32Gb de mémoire maximum (>16Gb) :
+        qBigmem, 1500 heures CPU maximum.
+     
+     Ressources demandées : 1 noeud maximum - 120Gb de mémoire maximum (>32Gb) :
+        qHugemem, 768 heures CPU et 48 heures (walltime) maximum. 16 coeurs alloués.
+
+
+
+    En file qShort : 48 processeurs maximum par utilisateur et/ou 24 calculs maximum par utilisateur
+    En file qLong, qInf ou qBigmem : 48 processeurs maximum par utilisateur et/ou 8 calculs maximum par utilisateur
+    En file qHugemem : 16 processeurs imposés (et maximum) par utilisateur et 1 calcul maximum par utilisateur
+
+----------------------------------------------------------------------------
+
+
+dtraore@master:~ $ ls
+Bureau  Documents  H2O_1202  He_1202  Images  Modèles  Musique  perl5  programs  Public  Téléchargements  test2_qp  tests_qp  Vidéos
+dtraore@master:~ $ cd programs/qp2/
+dtraore@master:~/programs/qp2 $ ./bin/qpsh 
+
+                     )
+   (              ( /(
+ ( )\  `  )   (   )\())
+ )(( ) /(/(   )\ ((_)\
+((_)_)((_)_\ ((_)| |(_)
+/ _` || '_ \)(_-<| ' \
+\__, || .__/ /__/|_||_|
+   |_||_|
+
+
+   -- Quantum  Package  Shell --
+
+|>
+dtraore@master:~/programs/qp2 $ cd plugins/
+|>
+dtraore@master:~/programs/qp2/plugins $ ls
+local
+|>
+dtraore@master:~/programs/qp2/plugins $ cd local/first_test/
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ ls
+build.ninja  first_test  first_test.irp.f  irpf90_entities  irpf90.make  IRPF90_man  IRPF90_temp  Makefile  NEED  README.rst  tags
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ ninja 
+[1/3] Compile only first_test
+ninja: no work to do.
+[3/3] Updating OCaml executables
+make : on entre dans le répertoire « /home_lct/dtraore/programs/qp2/ocaml »
+./create_git_sha1.sh
+rm -f -- element_create_db
+ocamlbuild -j 0 -cflags "-g" -lflags "-g" -ocamlopt "opt -O3 -remove-unused-arguments -rounds 16 -inline 100 -inline-max-unroll 100" element_create_db.byte  -use-ocamlfind  
+# No parallelism done
+ln -s element_create_db.byte element_create_db
+/nas/home_lct/dtraore/programs/qp2/scripts/module/create_executables_list.sh
+/nas/home_lct/dtraore/programs/qp2/ocaml/element_create_db.byte
+rm -f -- qp_edit
+ocamlbuild -j 0 -cflags "-g" -lflags "-g" -ocamlopt "opt -O3 -remove-unused-arguments -rounds 16 -inline 100 -inline-max-unroll 100" qp_edit.native -use-ocamlfind 
+# No parallelism done
+ln -s qp_edit.native qp_edit
+rm -f -- qp_run
+ocamlbuild -j 0 -cflags "-g" -lflags "-g" -ocamlopt "opt -O3 -remove-unused-arguments -rounds 16 -inline 100 -inline-max-unroll 100" qp_run.native -use-ocamlfind 
+# No parallelism done
+ln -s qp_run.native qp_run
+make: on quitte le répertoire « /home_lct/dtraore/programs/qp2/ocaml »
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ ls
+build.ninja  first_test  first_test.irp.f  irpf90_entities  irpf90.make  IRPF90_man  IRPF90_temp  Makefile  NEED  README.rst  tags
+|>
+dtraore@master:~/programs/qp2/plugins/local/first_test $ exit
+exit
+dtraore@master:~/programs/qp2 $ exit
+déconnexion
+Connection to master closed.
+dtraore@trudon:~/H2O_1202 $ ls
+H2O.ezfio  H2O.ezfio.mol  H2O.xyz
+dtraore@trudon:~/H2O_1202 $ cd
+dtraore@trudon:~ $ ls
+Bureau  Documents  H2O_1202  He_1202  Images  Modèles  Musique  perl5  programs  Public  Téléchargements  test2_qp  tests_qp  Vidéos
+dtraore@trudon:~ $ cd programs/qp2/
+dtraore@trudon:~/programs/qp2 $ ./bin/qpsh 
+bash: module: commande inconnue...
+bash: module: commande inconnue...
+
+
+    ,-----.     .-------.    .-'''-. .---.  .---.
+  .'  .-,  '.   \  _(`)_ \  / _     \|   |  |_ _|
+ / ,-.|  \ _ \  | (_ o._)| (`' )/`--'|   |  ( ' )
+;  \  '_ /  | : |  (_,_) /(_ o _).   |   '-(_{;}_)
+|  _`,/ \ _/  | |   '-.-'  (_,_). '. |      (_,_)
+: (  '\_/ \   ; |   |     .---.  \  :| _ _--.   |
+ \ `"/  \  )  \ |   |     \    `-'  ||( ' ) |   |
+  '. \_/``"/)  )/   )      \       / (_{;}_)|   |
+    '-----' `-' `---'       `-...-'  '(_,_) '---'
+
+
+
+   -- Quantum  Package  Shell --
+
+|>
+dtraore@trudon:~/programs/qp2 $ ls
+bin          CITATION.cff  configure  docs  external   include      lib    libexec  Makefile  ocaml    quantum_package.rc  REPLACE  share  tests
+build.ninja  config        data       etc   GITHUB.md  INSTALL.rst  lib64  LICENSE  man       plugins  README.md           scripts  src    TODO
+|>
+dtraore@trudon:~/programs/qp2 $ cd 
+|>
+dtraore@trudon:~ $ ls
+Bureau  Documents  H2O_1202  He_1202  Images  Modèles  Musique  perl5  programs  Public  Téléchargements  test2_qp  tests_qp  Vidéos
+|>
+dtraore@trudon:~ $ cd He_1202/
+l|>
+dtraore@trudon:~/He_1202 $ ls
+He.ezfio  He.ezfio.fci.out  He.ezfio.mol  He.ezfio.scf.out  He.hf+mono.out  He.xyz
+|>
+dtraore@trudon:~/He_1202 $ qp set_file He.ezfio 
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ ls
+He.ezfio  He.ezfio.fci.out  He.ezfio.mol  He.ezfio.scf.out  He.hf+mono.out  He.xyz
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp run 
+casscf                 diagonalize_h          first_test             -h                     print_ci_vectors       pt2                    save_natorb            scf                    test_pert_2rdm
+cis                    fci                    four_idx_transform     ks_scf                 print_e_conv           rotate_mos             save_one_e_dm          sort_by_fock_energies  write_integrals_erf
+cisd                   fcidump                get_energy             molden                 print_wf               rs_ks_scf              save_ortho_mos         swap_mos               
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp run first_test 
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp run first_test 
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ top
+
+top - 15:21:53 up 1 day,  6:03,  3 users,  load average: 0,28, 0,19, 0,25
+Tasks: 269 total,   1 running, 268 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1,6 us,  1,2 sy,  0,0 ni, 97,2 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+KiB Mem :  7870292 total,  2424460 free,  3170728 used,  2275104 buff/cache
+KiB Swap:  8388604 total,  8388604 free,        0 used.  4032628 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                                                                                                                        
+28227 dtraore   20   0 3107148 320380  84624 S   2,0  4,1   3:15.01 Web Content                                                                                                                                    
+ 2333 root      20   0  460136 106944  81228 S   1,3  1,4   9:05.00 X                                                                                                                                              
+ 2981 dtraore   20   0 4004732 247016  75308 S   1,3  3,1  10:54.70 gnome-shell                                                                                                                                    
+27998 dtraore   20   0 3855876 617640 168720 S   1,3  7,8  18:49.05 firefox                                                                                                                                        
+28768 dtraore   20   0  742436  33728  18528 S   1,3  0,4   0:31.38 gnome-terminal-                                                                                                                                
+ 1787 root      20   0  602500   5404   3468 S   0,3  0,1   0:05.79 automount                                                                                                                                      
+ 3026 dtraore   20   0  537308   5624   3556 S   0,3  0,1   0:03.23 ibus-daemon                                                                                                                                    
+ 7434 dtraore   20   0  172500   2516   1620 R   0,3  0,0   0:02.66 top                                                                                                                                            
+ 8418 root      20   0       0      0      0 S   0,3  0,0   0:00.04 kworker/u8:4                                                                                                                                   
+28069 dtraore   20   0 2900668 151796  76820 S   0,3  1,9   0:28.23 Web Content                                                                                                                                    
+28193 dtraore   20   0 3042256 253228  90180 S   0,3  3,2   4:14.07 Web Content                                                                                                                                    
+28424 dtraore   20   0 3114380 287868  93680 S   0,3  3,7  11:05.78 Web Content                                                                                                                                    
+28964 dtraore   20   0  127684   4204   1956 S   0,3  0,1   0:01.43 bash                                                                                                                                           
+31324 dtraore   20   0 2879088 167024  83920 S   0,3  2,1   0:17.86 Web Content                                                                                                                                    
+    1 root      20   0  194300   7448   4196 S   0,0  0,1   0:07.20 systemd                                                                                                                                        
+    2 root      20   0       0      0      0 S   0,0  0,0   0:00.10 kthreadd                                                                                                                                       
+    4 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kworker/0:0H                                                                                                                                   
+    6 root      20   0       0      0      0 S   0,0  0,0   0:00.89 ksoftirqd/0                                                                                                                                    
+    7 root      rt   0       0      0      0 S   0,0  0,0   0:00.05 migration/0                                                                                                                                    
+    8 root      20   0       0      0      0 S   0,0  0,0   0:00.00 rcu_bh                                                                                                                                         
+    9 root      20   0       0      0      0 S   0,0  0,0   0:27.72 rcu_sched                                                                                                                                      
+   10 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 lru-add-drain                                                                                                                                  
+   11 root      rt   0       0      0      0 S   0,0  0,0   0:00.55 watchdog/0                                                                                                                                     
+   12 root      rt   0       0      0      0 S   0,0  0,0   0:00.55 watchdog/1                                                                                                                                     
+   13 root      rt   0       0      0      0 S   0,0  0,0   0:00.01 migration/1                                                                                                                                    
+   14 root      20   0       0      0      0 S   0,0  0,0   0:00.05 ksoftirqd/1                                                                                                                                    
+   16 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kworker/1:0H                                                                                                                                   
+   17 root      rt   0       0      0      0 S   0,0  0,0   0:00.48 watchdog/2                                                                                                                                     
+   18 root      rt   0       0      0      0 S   0,0  0,0   0:00.05 migration/2                                                                                                                                    
+   19 root      20   0       0      0      0 S   0,0  0,0   0:00.25 ksoftirqd/2                                                                                                                                    
+   21 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kworker/2:0H                                                                                                                                   
+   22 root      rt   0       0      0      0 S   0,0  0,0   0:00.48 watchdog/3                                                                                                                                     
+   23 root      rt   0       0      0      0 S   0,0  0,0   0:00.07 migration/3                                                                                                                                    
+   24 root      20   0       0      0      0 S   0,0  0,0   0:00.10 ksoftirqd/3                                                                                                                                    
+   26 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kworker/3:0H                                                                                                                                   
+   28 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kdevtmpfs                                                                                                                                      
+   29 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 netns                                                                                                                                          
+   30 root      20   0       0      0      0 S   0,0  0,0   0:00.09 khungtaskd                                                                                                                                     
+   31 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 writeback                                                                                                                                      
+   32 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kintegrityd                                                                                                                                    
+   33 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 bioset                                                                                                                                         
+   34 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 bioset                                                                                                                                         
+   35 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 bioset                                                                                                                                         
+   36 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kblockd                                                                                                                                        
+   37 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 md                                                                                                                                             
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ 
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ ls
+He.ezfio  He.ezfio.fci.out  He.ezfio.mol  He.ezfio.scf.out  He.hf+mono.out  He.xyz
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp run first_test 
+Date: 13/02/2020 15:21:58
+===============
+Quantum Package
+===============
+
+Git Commit: Basis warning
+Git Date  : Tue Feb 4 16:49:16 2020 +0100
+Git SHA1  : 0e29b1c264c0e0db42a5e8ab9eab04f1a0411f67
+EZFIO Dir : He.ezfio
+
+
+Task server running : tcp://134.157.90.112:41279
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001793 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000789  s ] [ CPU  TIME:       0.030459  s ] <<<<< ..
+
+ * mo_label          Canonical
+* Number of determinants                                         1
+* Number of determinants                                         3
+ N_det =            3
+Wall time: 0:00:01
+
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp edit 
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp run first_test 
+Date: 13/02/2020 15:23:15
+===============
+Quantum Package
+===============
+
+Git Commit: Basis warning
+Git Date  : Tue Feb 4 16:49:16 2020 +0100
+Git SHA1  : 0e29b1c264c0e0db42a5e8ab9eab04f1a0411f67
+EZFIO Dir : He.ezfio
+
+
+Task server running : tcp://134.157.90.112:41279
+ * mo_label          Canonical
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001804 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000773  s ] [ CPU  TIME:       0.028475  s ] <<<<< ..
+
+* Number of determinants                                         1
+ N_det =            1
+Wall time: 0:00:02
+
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp edit 
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp run first_test 
+Date: 13/02/2020 15:23:32
+===============
+Quantum Package
+===============
+
+Git Commit: Basis warning
+Git Date  : Tue Feb 4 16:49:16 2020 +0100
+Git SHA1  : 0e29b1c264c0e0db42a5e8ab9eab04f1a0411f67
+EZFIO Dir : He.ezfio
+
+
+Task server running : tcp://134.157.90.112:41279
+ * mo_label          Canonical
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001804 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000528  s ] [ CPU  TIME:       0.014188  s ] <<<<< ..
+
+* Number of determinants                                         3
+ N_det =            3
+Wall time: 0:00:02
+
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp edit 
+/|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp run first_test 
+Date: 13/02/2020 15:23:42
+===============
+Quantum Package
+===============
+
+Git Commit: Basis warning
+Git Date  : Tue Feb 4 16:49:16 2020 +0100
+Git SHA1  : 0e29b1c264c0e0db42a5e8ab9eab04f1a0411f67
+EZFIO Dir : He.ezfio
+
+
+Task server running : tcp://134.157.90.112:41279
+ * mo_label          Canonical
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001801 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.001089  s ] [ CPU  TIME:       0.017835  s ] <<<<< ..
+
+* Number of determinants                                         1
+ N_det =            1
+Wall time: 0:00:02
+
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp edit 
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp run first_test 
+Date: 13/02/2020 15:27:29
+===============
+Quantum Package
+===============
+
+Git Commit: Basis warning
+Git Date  : Tue Feb 4 16:49:16 2020 +0100
+Git SHA1  : 0e29b1c264c0e0db42a5e8ab9eab04f1a0411f67
+EZFIO Dir : He.ezfio
+
+
+Task server running : tcp://134.157.90.112:41279
+.. >>>>> [ IO READ: n_states ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001797 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000779  s ] [ CPU  TIME:       0.015581  s ] <<<<< ..
+
+ * mo_label          Canonical
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001984 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.004839  s ] [ CPU  TIME:       0.016815  s ] <<<<< ..
+
+* Number of determinants                                         1
+* Dimension of the psi arrays                               100000
+* Number of determinants                                         3
+ Read psi_coef           3           1
+ N_det =            3
+ i           1  -1.0000000000000000     
+ i           2   5.9963020963800003E-009
+ i           3   5.9963020963800003E-009
+Wall time: 0:00:01
+
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp edit 
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp run first_test 
+Date: 13/02/2020 15:32:07
+===============
+Quantum Package
+===============
+
+Git Commit: Basis warning
+Git Date  : Tue Feb 4 16:49:16 2020 +0100
+Git SHA1  : 0e29b1c264c0e0db42a5e8ab9eab04f1a0411f67
+EZFIO Dir : He.ezfio
+
+
+Task server running : tcp://134.157.90.112:41279
+.. >>>>> [ IO READ: n_states ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001793 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000678  s ] [ CPU  TIME:       0.019386  s ] <<<<< ..
+
+ * mo_label          Canonical
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001984 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.004888  s ] [ CPU  TIME:       0.020444  s ] <<<<< ..
+
+* Number of determinants                                         1
+* Dimension of the psi arrays                               100000
+.. >>>>> [ IO READ: ao_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002720 GB ] [ VIRT MEM :       0.063038 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.010218  s ] [ CPU  TIME:       0.036960  s ] <<<<< ..
+
+* mo_num                                                         2
+ Read  mo_coef
+* N_int                                                          1
+.. >>>>> [ IO READ: elec_beta_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003040 GB ] [ VIRT MEM :       0.250538 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.027373  s ] [ CPU  TIME:       0.084522  s ] <<<<< ..
+
+.. >>>>> [ IO READ: elec_alpha_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003040 GB ] [ VIRT MEM :       0.250538 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.029248  s ] [ CPU  TIME:       0.089212  s ] <<<<< ..
+
+* Number of determinants                                         3
+ Read psi_coef           3           1
+ Read psi_det
+ N_det =            3
+ i           1  -1.0000000000000000     
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ i           2   5.9963020963800003E-009
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ i           3   5.9963020963800003E-009
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+Wall time: 0:00:02
+
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp run first_test | tee pouet 
+Date: 13/02/2020 15:51:21
+===============
+Quantum Package
+===============
+
+Git Commit: Basis warning
+Git Date  : Tue Feb 4 16:49:16 2020 +0100
+Git SHA1  : 0e29b1c264c0e0db42a5e8ab9eab04f1a0411f67
+EZFIO Dir : He.ezfio
+
+
+Task server running : tcp://134.157.90.112:41279
+.. >>>>> [ IO READ: n_states ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001793 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000828  s ] [ CPU  TIME:       0.016010  s ] <<<<< ..
+
+ * mo_label          Canonical
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001984 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.004722  s ] [ CPU  TIME:       0.017415  s ] <<<<< ..
+
+* Number of determinants                                         1
+* Dimension of the psi arrays                               100000
+.. >>>>> [ IO READ: ao_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002720 GB ] [ VIRT MEM :       0.063038 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.009566  s ] [ CPU  TIME:       0.032318  s ] <<<<< ..
+
+* mo_num                                                         2
+ Read  mo_coef
+* N_int                                                          1
+.. >>>>> [ IO READ: elec_beta_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003033 GB ] [ VIRT MEM :       0.250538 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.018512  s ] [ CPU  TIME:       0.057228  s ] <<<<< ..
+
+.. >>>>> [ IO READ: elec_alpha_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003033 GB ] [ VIRT MEM :       0.250538 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.019716  s ] [ CPU  TIME:       0.060900  s ] <<<<< ..
+
+* Number of determinants                                         3
+ Read psi_coef           3           1
+ Read psi_det
+ N_det =            3
+ 
+ 
+ i           1  -1.0000000000000000     
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+                     1                    1
+ 
+ 
+ 
+ i           2   5.9963020963800003E-009
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+                     2                    1
+ 
+ 
+ 
+ i           3   5.9963020963800003E-009
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+                     1                    2
+ 
+Wall time: 0:00:01
+
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp run first_test | tee pouet 
+Date: 13/02/2020 15:52:51
+===============
+Quantum Package
+===============
+
+Git Commit: Basis warning
+Git Date  : Tue Feb 4 16:49:16 2020 +0100
+Git SHA1  : 0e29b1c264c0e0db42a5e8ab9eab04f1a0411f67
+EZFIO Dir : He.ezfio
+
+
+Task server running : tcp://134.157.90.112:41279
+.. >>>>> [ IO READ: n_states ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001797 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000726  s ] [ CPU  TIME:       0.027623  s ] <<<<< ..
+
+ * mo_label          Canonical
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001984 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.004823  s ] [ CPU  TIME:       0.028803  s ] <<<<< ..
+
+* Number of determinants                                         1
+* Dimension of the psi arrays                               100000
+.. >>>>> [ IO READ: ao_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002712 GB ] [ VIRT MEM :       0.063038 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.010972  s ] [ CPU  TIME:       0.047459  s ] <<<<< ..
+
+* mo_num                                                         2
+ Read  mo_coef
+* N_int                                                          1
+.. >>>>> [ IO READ: elec_beta_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003033 GB ] [ VIRT MEM :       0.250538 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.025497  s ] [ CPU  TIME:       0.089785  s ] <<<<< ..
+
+.. >>>>> [ IO READ: elec_alpha_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003033 GB ] [ VIRT MEM :       0.250538 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.026788  s ] [ CPU  TIME:       0.093888  s ] <<<<< ..
+
+* Number of determinants                                         3
+ Read psi_coef           3           1
+ Read psi_det
+ N_det =            3
+ 
+ 
+ i           1  -1.0000000000000000     
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+                     1                    1
+                     1                    1
+ 
+ 
+ 
+ i           2   5.9963020963800003E-009
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+                     2                    1
+                     2                    1
+ 
+ 
+ 
+ i           3   5.9963020963800003E-009
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+                     1                    2
+                     1                    2
+ 
+Wall time: 0:00:02
+
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp run first_test | tee pouet 
+Date: 13/02/2020 15:58:24
+===============
+Quantum Package
+===============
+
+Git Commit: Basis warning
+Git Date  : Tue Feb 4 16:49:16 2020 +0100
+Git SHA1  : 0e29b1c264c0e0db42a5e8ab9eab04f1a0411f67
+EZFIO Dir : He.ezfio
+
+
+Task server running : tcp://134.157.90.112:41279
+.. >>>>> [ IO READ: n_states ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001797 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000725  s ] [ CPU  TIME:       0.013241  s ] <<<<< ..
+
+ * mo_label          Canonical
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001984 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.003890  s ] [ CPU  TIME:       0.014278  s ] <<<<< ..
+
+* Number of determinants                                         1
+* Dimension of the psi arrays                               100000
+.. >>>>> [ IO READ: ao_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002712 GB ] [ VIRT MEM :       0.063038 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.009395  s ] [ CPU  TIME:       0.032036  s ] <<<<< ..
+
+* mo_num                                                         2
+ Read  mo_coef
+* N_int                                                          1
+.. >>>>> [ IO READ: elec_beta_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003040 GB ] [ VIRT MEM :       0.250538 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.018404  s ] [ CPU  TIME:       0.057356  s ] <<<<< ..
+
+.. >>>>> [ IO READ: elec_alpha_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003040 GB ] [ VIRT MEM :       0.250538 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.020101  s ] [ CPU  TIME:       0.062731  s ] <<<<< ..
+
+* Number of determinants                                         3
+ Read psi_coef           3           1
+ Read psi_det
+ N_det =            3
+ 
+ 
+ i           1  -1.0000000000000000     
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           1  -1.0000000000000000     
+.. >>>>> [ IO READ: mo_class ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004635 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.051049  s ] [ CPU  TIME:       0.161327  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004635 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.052326  s ] [ CPU  TIME:       0.165317  s ] <<<<< ..
+
+ MO map initialized:                     6
+.. >>>>> [ IO READ: io_ao_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004635 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.053685  s ] [ CPU  TIME:       0.169547  s ] <<<<< ..
+
+ AO map initialized :                     6
+.. >>>>> [ IO READ: ao_power ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004730 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.079442  s ] [ CPU  TIME:       0.223347  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_prim_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004745 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.083032  s ] [ CPU  TIME:       0.234416  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_expo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004753 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.086584  s ] [ CPU  TIME:       0.245349  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_coef ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004757 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.091459  s ] [ CPU  TIME:       0.259351  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_nucl ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004883 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.096395  s ] [ CPU  TIME:       0.274811  s ] <<<<< ..
+
+ Providing the AO integrals
+.. >>>>> [ IO READ: nucl_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.007259 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.104875  s ] [ CPU  TIME:       0.296057  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_label ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.007370 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.109185  s ] [ CPU  TIME:       0.296798  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_charge ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.007378 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.114391  s ] [ CPU  TIME:       0.297653  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.007385 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.118712  s ] [ CPU  TIME:       0.298191  s ] <<<<< ..
+
+
+Nuclear Coordinates (Angstroms)
+===============================
+
+================ ============ ============ ============ ============
+      Atom          Charge          X            Y            Z 
+================ ============ ============ ============ ============
+He                   2.000000     0.000000     0.000000     0.000000
+================ ============ ============ ============ ============
+
+.. >>>>> [ IO READ: ao_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.007385 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.119644  s ] [ CPU  TIME:       0.298572  s ] <<<<< ..
+
+25.00 %  in                     0 seconds 
+ Sorting the map                                                           
+ AO integrals provided:
+  Size of AO map :            1.4686584472656250E-004 MB
+  Number of AO integrals :                    6
+  cpu  time :   2.5617000000000001E-002 s
+  wall time :   2.5285320996772498E-002 s  ( x    1.0131174527414479       )
+ 
+ AO -> MO integrals transformation
+ ---------------------------------
+ 
+.. >>>>> [ IO READ: mo_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005703 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.122772  s ] [ CPU  TIME:       0.303981  s ] <<<<< ..
+
+ Buffers :    3.35693359E-04 MB / core
+ Molecular integrals provided:
+  Size of MO map              1.3732910156250000E-004 MB
+  Number of MO integrals:                     6
+  cpu  time :   1.3672000000000017E-002 s
+  wall time :   4.1335749992867932E-003 s  ( x    3.3075485511594644      )
+.. >>>>> [ IO READ: io_mo_integrals_e_n ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011639 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.129587  s ] [ CPU  TIME:       0.327111  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_e_n ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011639 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.130798  s ] [ CPU  TIME:       0.330860  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011639 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.131566  s ] [ CPU  TIME:       0.333268  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011639 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.132314  s ] [ CPU  TIME:       0.335584  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_one_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011639 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.133061  s ] [ CPU  TIME:       0.337944  s ] <<<<< ..
+
+ Providing the one-electron integrals
+.. >>>>> [ IO READ: do_pseudo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011639 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.134242  s ] [ CPU  TIME:       0.341588  s ] <<<<< ..
+
+ hij =   -2.8551604261559076     
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           2   5.9963020963800003E-009
+ hij =    1.1460094317961023E-008
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ j           3   5.9963020963800003E-009
+ hij =    1.1460094317961023E-008
+ 
+ 
+ 
+ i           2   5.9963020963800003E-009
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           1  -1.0000000000000000     
+ hij =    1.1460094317961023E-008
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           2   5.9963020963800003E-009
+ hij =   -1.1716373007798246     
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ j           3   5.9963020963800003E-009
+ hij =   0.22767049591936808     
+ 
+ 
+ 
+ i           3   5.9963020963800003E-009
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           1  -1.0000000000000000     
+ hij =    1.1460094317961023E-008
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           2   5.9963020963800003E-009
+ hij =   0.22767049591936808     
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ j           3   5.9963020963800003E-009
+ hij =   -1.1716373007798246     
+ 
+Wall time: 0:00:02
+
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ vi pouet 
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp run first_test | tee pouet 
+Date: 13/02/2020 16:03:20
+===============
+Quantum Package
+===============
+
+Git Commit: Basis warning
+Git Date  : Tue Feb 4 16:49:16 2020 +0100
+Git SHA1  : 0e29b1c264c0e0db42a5e8ab9eab04f1a0411f67
+EZFIO Dir : He.ezfio
+
+
+Task server running : tcp://134.157.90.112:41279
+.. >>>>> [ IO READ: n_states ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001801 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000587  s ] [ CPU  TIME:       0.026189  s ] <<<<< ..
+
+ * mo_label          Canonical
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001984 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.004537  s ] [ CPU  TIME:       0.027188  s ] <<<<< ..
+
+* Number of determinants                                         1
+* Dimension of the psi arrays                               100000
+.. >>>>> [ IO READ: ao_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002720 GB ] [ VIRT MEM :       0.063038 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.009762  s ] [ CPU  TIME:       0.043352  s ] <<<<< ..
+
+* mo_num                                                         2
+ Read  mo_coef
+* N_int                                                          1
+.. >>>>> [ IO READ: elec_beta_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003040 GB ] [ VIRT MEM :       0.250538 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.023381  s ] [ CPU  TIME:       0.083339  s ] <<<<< ..
+
+.. >>>>> [ IO READ: elec_alpha_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003040 GB ] [ VIRT MEM :       0.250538 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.024815  s ] [ CPU  TIME:       0.087316  s ] <<<<< ..
+
+* Number of determinants                                         3
+ Read psi_coef           3           1
+ Read psi_det
+ N_det =            3
+ 
+ 
+ i           1  -1.0000000000000000     
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           1  -1.0000000000000000     
+.. >>>>> [ IO READ: mo_class ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004631 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.059035  s ] [ CPU  TIME:       0.196450  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004631 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.061649  s ] [ CPU  TIME:       0.204613  s ] <<<<< ..
+
+ MO map initialized:                     6
+.. >>>>> [ IO READ: io_ao_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004631 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.063278  s ] [ CPU  TIME:       0.209371  s ] <<<<< ..
+
+ AO map initialized :                     6
+.. >>>>> [ IO READ: ao_power ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004715 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.069405  s ] [ CPU  TIME:       0.228088  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_prim_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004738 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.073739  s ] [ CPU  TIME:       0.241330  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_expo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004749 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.078203  s ] [ CPU  TIME:       0.254872  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_coef ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004749 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.082473  s ] [ CPU  TIME:       0.267941  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_nucl ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004864 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.088537  s ] [ CPU  TIME:       0.286407  s ] <<<<< ..
+
+ Providing the AO integrals
+.. >>>>> [ IO READ: nucl_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005280 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.098919  s ] [ CPU  TIME:       0.309548  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_label ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005386 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.105508  s ] [ CPU  TIME:       0.310288  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_charge ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005394 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.112178  s ] [ CPU  TIME:       0.310816  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.005398 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.118203  s ] [ CPU  TIME:       0.311333  s ] <<<<< ..
+
+
+Nuclear Coordinates (Angstroms)
+===============================
+
+================ ============ ============ ============ ============
+      Atom          Charge          X            Y            Z 
+================ ============ ============ ============ ============
+He                   2.000000     0.000000     0.000000     0.000000
+================ ============ ============ ============ ============
+
+.. >>>>> [ IO READ: ao_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005398 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.119329  s ] [ CPU  TIME:       0.311831  s ] <<<<< ..
+
+25.00 %  in                     0 seconds 
+ Sorting the map                                                           
+ AO integrals provided:
+  Size of AO map :            1.4686584472656250E-004 MB
+  Number of AO integrals :                    6
+  cpu  time :   2.6994999999999991E-002 s
+  wall time :   3.2153925989405252E-002 s  ( x   0.83955533171578700       )
+ 
+ AO -> MO integrals transformation
+ ---------------------------------
+ 
+.. >>>>> [ IO READ: mo_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005611 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.122534  s ] [ CPU  TIME:       0.314440  s ] <<<<< ..
+
+ Buffers :    3.35693359E-04 MB / core
+ Molecular integrals provided:
+  Size of MO map              1.3732910156250000E-004 MB
+  Number of MO integrals:                     6
+  cpu  time :   1.8554000000000015E-002 s
+  wall time :   9.9384670029394329E-003 s  ( x    1.8668875184183260      )
+.. >>>>> [ IO READ: io_mo_integrals_e_n ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011589 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.134862  s ] [ CPU  TIME:       0.346110  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_e_n ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011589 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.136312  s ] [ CPU  TIME:       0.350559  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011589 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.137242  s ] [ CPU  TIME:       0.353463  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011589 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.138133  s ] [ CPU  TIME:       0.356210  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_one_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011589 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.139137  s ] [ CPU  TIME:       0.359327  s ] <<<<< ..
+
+ Providing the one-electron integrals
+.. >>>>> [ IO READ: do_pseudo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011589 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.140722  s ] [ CPU  TIME:       0.363991  s ] <<<<< ..
+
+ hij =   -2.8551604261559076     
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           2   5.9963020963800003E-009
+ hij =    1.1460094317961023E-008
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ j           3   5.9963020963800003E-009
+ hij =    1.1460094317961023E-008
+ 
+ 
+ 
+ i           2   5.9963020963800003E-009
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           1  -1.0000000000000000     
+ hij =    1.1460094317961023E-008
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           2   5.9963020963800003E-009
+ hij =   -1.1716373007798246     
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ j           3   5.9963020963800003E-009
+ hij =   0.22767049591936808     
+ 
+ 
+ 
+ i           3   5.9963020963800003E-009
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           1  -1.0000000000000000     
+ hij =    1.1460094317961023E-008
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           2   5.9963020963800003E-009
+ hij =   0.22767049591936808     
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ j           3   5.9963020963800003E-009
+ hij =   -1.1716373007798246     
+ 
+ 
+ Hmiltonian matrix
+  -2.8551604261559076        1.1460094317961023E-008   1.1460094317961023E-008
+   1.1460094317961023E-008  -1.1716373007798246       0.22767049591936808     
+   1.1460094317961023E-008  0.22767049591936808       -1.1716373007798246     
+ 
+ 
+Wall time: 0:00:02
+
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp run first_test | tee pouet 
+Date: 13/02/2020 16:05:16
+===============
+Quantum Package
+===============
+
+Git Commit: Basis warning
+Git Date  : Tue Feb 4 16:49:16 2020 +0100
+Git SHA1  : 0e29b1c264c0e0db42a5e8ab9eab04f1a0411f67
+EZFIO Dir : He.ezfio
+
+
+Task server running : tcp://134.157.90.112:41279
+.. >>>>> [ IO READ: n_states ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001797 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000411  s ] [ CPU  TIME:       0.022721  s ] <<<<< ..
+
+ * mo_label          Canonical
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001984 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.002766  s ] [ CPU  TIME:       0.023320  s ] <<<<< ..
+
+* Number of determinants                                         1
+* Dimension of the psi arrays                               100000
+.. >>>>> [ IO READ: ao_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002720 GB ] [ VIRT MEM :       0.063038 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.007305  s ] [ CPU  TIME:       0.037600  s ] <<<<< ..
+
+* mo_num                                                         2
+ Read  mo_coef
+* N_int                                                          1
+.. >>>>> [ IO READ: elec_beta_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003040 GB ] [ VIRT MEM :       0.250538 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.017065  s ] [ CPU  TIME:       0.066622  s ] <<<<< ..
+
+.. >>>>> [ IO READ: elec_alpha_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003040 GB ] [ VIRT MEM :       0.250538 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.018402  s ] [ CPU  TIME:       0.070953  s ] <<<<< ..
+
+* Number of determinants                                         3
+ Read psi_coef           3           1
+ Read psi_det
+ N_det =            3
+ 
+ 
+ i           1  -1.0000000000000000     
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           1  -1.0000000000000000     
+.. >>>>> [ IO READ: mo_class ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004631 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.047817  s ] [ CPU  TIME:       0.161218  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004631 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.049114  s ] [ CPU  TIME:       0.165108  s ] <<<<< ..
+
+ MO map initialized:                     6
+.. >>>>> [ IO READ: io_ao_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004631 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.050375  s ] [ CPU  TIME:       0.168950  s ] <<<<< ..
+
+ AO map initialized :                     6
+.. >>>>> [ IO READ: ao_power ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004719 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.061358  s ] [ CPU  TIME:       0.201782  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_prim_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004742 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.072280  s ] [ CPU  TIME:       0.233916  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_expo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004749 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.079516  s ] [ CPU  TIME:       0.253110  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_coef ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004753 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.083092  s ] [ CPU  TIME:       0.263909  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_nucl ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004864 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.086856  s ] [ CPU  TIME:       0.275212  s ] <<<<< ..
+
+ Providing the AO integrals
+.. >>>>> [ IO READ: nucl_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005280 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.096120  s ] [ CPU  TIME:       0.292313  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_label ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005390 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.099952  s ] [ CPU  TIME:       0.292789  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_charge ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005402 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.105158  s ] [ CPU  TIME:       0.293372  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.005405 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.109854  s ] [ CPU  TIME:       0.293992  s ] <<<<< ..
+
+
+Nuclear Coordinates (Angstroms)
+===============================
+
+================ ============ ============ ============ ============
+      Atom          Charge          X            Y            Z 
+================ ============ ============ ============ ============
+He                   2.000000     0.000000     0.000000     0.000000
+================ ============ ============ ============ ============
+
+.. >>>>> [ IO READ: ao_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005405 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.110791  s ] [ CPU  TIME:       0.294413  s ] <<<<< ..
+
+25.00 %  in                     0 seconds 
+ Sorting the map                                                           
+ AO integrals provided:
+  Size of AO map :            1.4686584472656250E-004 MB
+  Number of AO integrals :                    6
+  cpu  time :   2.0498999999999989E-002 s
+  wall time :   2.4949255006504245E-002 s  ( x   0.82162773977242687       )
+ 
+ AO -> MO integrals transformation
+ ---------------------------------
+ 
+.. >>>>> [ IO READ: mo_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005630 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.112627  s ] [ CPU  TIME:       0.296056  s ] <<<<< ..
+
+ Buffers :    3.35693359E-04 MB / core
+ Molecular integrals provided:
+  Size of MO map              1.3732910156250000E-004 MB
+  Number of MO integrals:                     6
+  cpu  time :   3.0165999999999971E-002 s
+  wall time :   1.0788875006255694E-002 s  ( x    2.7960283145841318      )
+.. >>>>> [ IO READ: io_mo_integrals_e_n ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011612 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.130374  s ] [ CPU  TIME:       0.348374  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_e_n ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011612 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.131589  s ] [ CPU  TIME:       0.351880  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011612 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.136310  s ] [ CPU  TIME:       0.366058  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011612 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.137150  s ] [ CPU  TIME:       0.368387  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_one_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011612 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.137964  s ] [ CPU  TIME:       0.370931  s ] <<<<< ..
+
+ Providing the one-electron integrals
+.. >>>>> [ IO READ: do_pseudo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011612 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.143502  s ] [ CPU  TIME:       0.387663  s ] <<<<< ..
+
+ hij =   -2.8551604261559076     
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           2   5.9963020963800003E-009
+ hij =    1.1460094317961023E-008
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ j           3   5.9963020963800003E-009
+ hij =    1.1460094317961023E-008
+ 
+ 
+ 
+ i           2   5.9963020963800003E-009
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           1  -1.0000000000000000     
+ hij =    1.1460094317961023E-008
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           2   5.9963020963800003E-009
+ hij =   -1.1716373007798246     
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ j           3   5.9963020963800003E-009
+ hij =   0.22767049591936808     
+ 
+ 
+ 
+ i           3   5.9963020963800003E-009
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           1  -1.0000000000000000     
+ hij =    1.1460094317961023E-008
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           2   5.9963020963800003E-009
+ hij =   0.22767049591936808     
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ j           3   5.9963020963800003E-009
+ hij =   -1.1716373007798246     
+ 
+ 
+ Hmiltonian matrix
+  -2.85516    0.00000    0.00000
+   0.00000   -1.17164    0.22767
+   0.00000    0.22767   -1.17164
+ 
+ 
+Wall time: 0:00:02
+
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp edit 
+^[[1;2AG|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp run fci 
+Date: 13/02/2020 16:05:31
+===============
+Quantum Package
+===============
+
+Git Commit: Basis warning
+Git Date  : Tue Feb 4 16:49:16 2020 +0100
+Git SHA1  : 0e29b1c264c0e0db42a5e8ab9eab04f1a0411f67
+EZFIO Dir : He.ezfio
+
+
+Task server running : tcp://134.157.90.112:41279
+* mo_num                                                         2
+.. >>>>> [ IO READ: mo_class ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002159 GB ] [ VIRT MEM :       0.129154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000812  s ] [ CPU  TIME:       0.025450  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002380 GB ] [ VIRT MEM :       0.129154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.003132  s ] [ CPU  TIME:       0.032890  s ] <<<<< ..
+
+* N_int                                                          1
+ MO map initialized:                     6
+.. >>>>> [ IO READ: io_ao_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002380 GB ] [ VIRT MEM :       0.129154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.005562  s ] [ CPU  TIME:       0.040594  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002380 GB ] [ VIRT MEM :       0.129154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.007813  s ] [ CPU  TIME:       0.047539  s ] <<<<< ..
+
+ AO map initialized :                     6
+.. >>>>> [ IO READ: ao_power ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002518 GB ] [ VIRT MEM :       0.254154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.015655  s ] [ CPU  TIME:       0.071164  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_prim_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002544 GB ] [ VIRT MEM :       0.254154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.020072  s ] [ CPU  TIME:       0.083850  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_expo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002571 GB ] [ VIRT MEM :       0.254154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.025430  s ] [ CPU  TIME:       0.097107  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_coef ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002583 GB ] [ VIRT MEM :       0.254154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.030793  s ] [ CPU  TIME:       0.111826  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_nucl ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002705 GB ] [ VIRT MEM :       0.254154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.034579  s ] [ CPU  TIME:       0.123422  s ] <<<<< ..
+
+ Providing the AO integrals
+.. >>>>> [ IO READ: nucl_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004883 GB ] [ VIRT MEM :       0.465229 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.043087  s ] [ CPU  TIME:       0.144505  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_label ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004986 GB ] [ VIRT MEM :       0.465229 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.046690  s ] [ CPU  TIME:       0.144920  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_charge ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004997 GB ] [ VIRT MEM :       0.465229 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.051700  s ] [ CPU  TIME:       0.145950  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.005005 GB ] [ VIRT MEM :       0.465229 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.058101  s ] [ CPU  TIME:       0.147808  s ] <<<<< ..
+
+
+Nuclear Coordinates (Angstroms)
+===============================
+
+================ ============ ============ ============ ============
+      Atom          Charge          X            Y            Z 
+================ ============ ============ ============ ============
+He                   2.000000     0.000000     0.000000     0.000000
+================ ============ ============ ============ ============
+
+.. >>>>> [ IO READ: ao_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005005 GB ] [ VIRT MEM :       0.465229 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.060135  s ] [ CPU  TIME:       0.148899  s ] <<<<< ..
+
+ Sorting the map                                                           
+ AO integrals provided:
+  Size of AO map :            1.4686584472656250E-004 MB
+  Number of AO integrals :                    6
+  cpu  time :   2.9290999999999998E-002 s
+  wall time :   2.8592955000931397E-002 s  ( x    1.0244131814653596       )
+ 
+ AO -> MO integrals transformation
+ ---------------------------------
+ 
+ Read  mo_coef
+.. >>>>> [ IO READ: mo_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003582 GB ] [ VIRT MEM :       0.465229 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.068037  s ] [ CPU  TIME:       0.167635  s ] <<<<< ..
+
+ Buffers :    3.35693359E-04 MB / core
+ Molecular integrals provided:
+  Size of MO map              1.3732910156250000E-004 MB
+  Number of MO integrals:                     6
+  cpu  time :   1.6185000000000005E-002 s
+  wall time :   5.1760770002147183E-003 s  ( x    3.1268854770376495      )
+.. >>>>> [ IO READ: n_states ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.007488 GB ] [ VIRT MEM :       0.590233 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.069876  s ] [ CPU  TIME:       0.173736  s ] <<<<< ..
+
+ * mo_label          Canonical
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.007488 GB ] [ VIRT MEM :       0.590233 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.071708  s ] [ CPU  TIME:       0.179267  s ] <<<<< ..
+
+* Number of determinants                                         1
+* Dimension of the psi arrays                               100000
+.. >>>>> [ IO READ: elec_beta_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.008236 GB ] [ VIRT MEM :       0.590981 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.074038  s ] [ CPU  TIME:       0.186863  s ] <<<<< ..
+
+.. >>>>> [ IO READ: elec_alpha_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.008236 GB ] [ VIRT MEM :       0.590981 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.074743  s ] [ CPU  TIME:       0.189067  s ] <<<<< ..
+
+.. >>>>> [ IO READ: do_pt2 ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.009747 GB ] [ VIRT MEM :       0.592472 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.078984  s ] [ CPU  TIME:       0.204800  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.009846 GB ] [ VIRT MEM :       0.592480 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.106855  s ] [ CPU  TIME:       0.288861  s ] <<<<< ..
+
+.. >>>>> [ IO READ: selection_factor ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.009846 GB ] [ VIRT MEM :       0.592480 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.107835  s ] [ CPU  TIME:       0.291936  s ] <<<<< ..
+
+.. >>>>> [ IO READ: n_det_max ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.009846 GB ] [ VIRT MEM :       0.593971 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.108699  s ] [ CPU  TIME:       0.294684  s ] <<<<< ..
+
+.. >>>>> [ IO READ: s2_eig ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.010723 GB ] [ VIRT MEM :       0.594730 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.109885  s ] [ CPU  TIME:       0.298622  s ] <<<<< ..
+
+.. >>>>> [ IO READ: variance_max ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.010723 GB ] [ VIRT MEM :       0.594730 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.110716  s ] [ CPU  TIME:       0.301246  s ] <<<<< ..
+
+.. >>>>> [ IO READ: distributed_davidson ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.010723 GB ] [ VIRT MEM :       0.594730 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.112103  s ] [ CPU  TIME:       0.305550  s ] <<<<< ..
+
+.. >>>>> [ IO READ: n_det_max_full ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.010723 GB ] [ VIRT MEM :       0.594730 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.112964  s ] [ CPU  TIME:       0.308271  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_integrals_e_n ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.012775 GB ] [ VIRT MEM :       2.469730 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.116203  s ] [ CPU  TIME:       0.318503  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_e_n ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.012775 GB ] [ VIRT MEM :       2.469730 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.118580  s ] [ CPU  TIME:       0.326110  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.012775 GB ] [ VIRT MEM :       2.469730 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.120147  s ] [ CPU  TIME:       0.331278  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.012775 GB ] [ VIRT MEM :       2.469730 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.121041  s ] [ CPU  TIME:       0.334131  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_one_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.012775 GB ] [ VIRT MEM :       2.469730 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.121957  s ] [ CPU  TIME:       0.337074  s ] <<<<< ..
+
+ Providing the one-electron integrals
+.. >>>>> [ IO READ: do_pseudo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.012775 GB ] [ VIRT MEM :       2.469730 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.123480  s ] [ CPU  TIME:       0.341829  s ] <<<<< ..
+
+.. >>>>> [ IO READ: pt2_relative_error ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.012775 GB ] [ VIRT MEM :       2.469730 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.124394  s ] [ CPU  TIME:       0.344758  s ] <<<<< ..
+
+.. >>>>> [ IO READ: correlation_energy_ratio_max ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.012775 GB ] [ VIRT MEM :       2.469730 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.125292  s ] [ CPU  TIME:       0.347019  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.012775 GB ] [ VIRT MEM :       2.469730 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.126747  s ] [ CPU  TIME:       0.351266  s ] <<<<< ..
+
+ Read  n_states_diag
+.. >>>>> [ IO READ: io_nuclear_repulsion ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.012775 GB ] [ VIRT MEM :       2.469730 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.128983  s ] [ CPU  TIME:       0.358276  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.012775 GB ] [ VIRT MEM :       2.469730 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.129291  s ] [ CPU  TIME:       0.359320  s ] <<<<< ..
+
+* Nuclear repulsion energy                           0.000000000000000    
+.. >>>>> [ IO READ: weight_one_e_dm ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.012775 GB ] [ VIRT MEM :       2.469730 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.130257  s ] [ CPU  TIME:       0.362366  s ] <<<<< ..
+
+.. >>>>> [ IO READ: pt2_max ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.016918 GB ] [ VIRT MEM :       2.473839 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.137167  s ] [ CPU  TIME:       0.385868  s ] <<<<< ..
+
+.. >>>>> [ IO READ: threshold_generators ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.016918 GB ] [ VIRT MEM :       2.473839 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.138746  s ] [ CPU  TIME:       0.390664  s ] <<<<< ..
+
+* Target maximum memory (GB)                                  2000
+* Number of occupation patterns                                  1
+
+.. >>>>> [ RES  MEM :       0.016918 GB ] [ VIRT MEM :       2.476078 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.139291  s ] [ CPU  TIME:       0.392542  s ] <<<<< ..
+
+.. >>>>> [ IO READ: threshold_davidson ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.016918 GB ] [ VIRT MEM :       2.476078 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.140165  s ] [ CPU  TIME:       0.395335  s ] <<<<< ..
+
+ Diagonalization of H using Lapack
+.. >>>>> [ IO READ: only_expected_s2 ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.016918 GB ] [ VIRT MEM :       2.476078 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.141939  s ] [ CPU  TIME:       0.400859  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.016918 GB ] [ VIRT MEM :       2.476078 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.142298  s ] [ CPU  TIME:       0.402106  s ] <<<<< ..
+
+* Energy of state    1                              -2.855160426155908    
+* S^2 of state    1                                  0.000000000000000    
+* Saved determinants                                             1
+--------------------------------------------------------------------------------
+* Number of unique beta determinants                             1
+* Number of unique alpha determinants                            1
+.. >>>>> [ IO READ: weight_selection ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.017155 GB ] [ VIRT MEM :       2.479244 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.195995  s ] [ CPU  TIME:       0.530363  s ] <<<<< ..
+
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+.. >>>>> [ IO READ: pseudo_sym ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.017155 GB ] [ VIRT MEM :       2.479244 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.197247  s ] [ CPU  TIME:       0.534295  s ] <<<<< ..
+
+.. >>>>> [ IO READ: h0_type ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.017155 GB ] [ VIRT MEM :       2.479244 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.198182  s ] [ CPU  TIME:       0.537242  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.017155 GB ] [ VIRT MEM :       2.479244 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.198495  s ] [ CPU  TIME:       0.538308  s ] <<<<< ..
+
+* Number of generators                                           1
+
+.. >>>>> [ RES  MEM :       0.017155 GB ] [ VIRT MEM :       2.479244 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.198854  s ] [ CPU  TIME:       0.539508  s ] <<<<< ..
+
+* Number of selectors                                            1
+* Number of comb teeth                                           1
+* Number of core     MOs                                         0
+* pt2_n_tasks_max                                                1
+* PT2 Energy denominator                            -2.855160426155908    
+* Estimated memory/thread (Gb)                      0.1043081283569336E-06
+* Number of virtual  MOs                                         0
+* Number of active   MOs                                         2
+ Active MOs:
+           1           2
+* Number of inactive MOs                                         0
+.. >>>>> [ IO READ: pert_2rdm ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.018177 GB ] [ VIRT MEM :       2.483105 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.210645  s ] [ CPU  TIME:       0.567798  s ] <<<<< ..
+
+ n_d =            1                                                        
+.. >>>>> [ IO READ: pruning ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.018456 GB ] [ VIRT MEM :       2.483105 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.218004  s ] [ CPU  TIME:       0.586394  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.018456 GB ] [ VIRT MEM :       2.483105 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.223156  s ] [ CPU  TIME:       0.604629  s ] <<<<< ..
+
+* Number of generators                                           1
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* Saved determinants                                             2
+* Number of unique beta determinants                             2
+* Number of unique alpha determinants                            2
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+
+.. >>>>> [ RES  MEM :       0.018509 GB ] [ VIRT MEM :       2.483116 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.273559  s ] [ CPU  TIME:       0.725100  s ] <<<<< ..
+
+* Number of selectors                                            1
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+* Correlation ratio                                 0.1190553705735488E-11
+ 
+Summary at N_det =            2
+-----------------------------------
+ 
+# ============ =============================
+                     State      1
+# ============ =============================
+# E              -2.85516043
+# PT2            -0.01498506     0.00000000
+# rPT2           -0.01492043     0.00000000
+#
+# E+PT2          -2.87014549     0.00000000
+# E+rPT2         -2.87008085     0.00000000
+# ============ =============================
+ 
+ N_det             =            2
+ N_states          =            1
+ N_sop             =            2
+ 
+ * State            1
+ < S^2 >         =    0.0000000000000000     
+ E               =   -2.8551604261559076     
+ Variance        =    5.1833854712171265E-002
+ PT norm         =    6.5819083978290241E-002
+ PT2             =   -1.4985063490295936E-002
+ rPT2            =   -1.4920425939968467E-002
+ E+PT2            =   -2.8701454896462035       +/-    0.0000000000000000     
+ E+rPT2           =   -2.8700808520958763       +/-    0.0000000000000000     
+ 
+ -----
+.. >>>>> [ IO READ: io_mo_integrals_pseudo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.018509 GB ] [ VIRT MEM :       2.483116 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.274500  s ] [ CPU  TIME:       0.727903  s ] <<<<< ..
+
+ Energy components
+ =================
+ 
+ Vnn  : Nucleus-Nucleus   potential energy
+ Ven  : Electron-Nucleus  potential energy
+ Vee  : Electron-Electron potential energy
+ Vecp : Potential energy of the pseudo-potentials
+ T    : Electronic kinetic energy
+ 
+ State            1
+ ---------
+ 
+ Vnn  =    0.0000000000000000     
+ Ven  =   -6.7373924579493165     
+ Vee  =    1.0269071620921819     
+ Vecp =    0.0000000000000000     
+ T    =    2.8553248697012270     
+ 
+ 
+.. >>>>> [ IO READ: energy_iterations ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.018532 GB ] [ VIRT MEM :       2.483116 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.295796  s ] [ CPU  TIME:       0.789713  s ] <<<<< ..
+
+.. >>>>> [ IO READ: pt2_iterations ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.018536 GB ] [ VIRT MEM :       2.483116 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.299785  s ] [ CPU  TIME:       0.801896  s ] <<<<< ..
+
+.. >>>>> [ IO READ: n_det_iterations ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.018536 GB ] [ VIRT MEM :       2.483116 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.303943  s ] [ CPU  TIME:       0.814658  s ] <<<<< ..
+
+ Diagonalization of H using Lapack
+
+.. >>>>> [ RES  MEM :       0.018539 GB ] [ VIRT MEM :       2.483116 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.334366  s ] [ CPU  TIME:       0.908539  s ] <<<<< ..
+
+* Energy of state    1                              -2.870145489646204    
+* S^2 of state    1                                  0.000000000000000    
+* Saved determinants                                             2
+--------------------------------------------------------------------------------
+* Number of unique beta determinants                             2
+* Number of unique alpha determinants                            2
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+
+.. >>>>> [ RES  MEM :       0.018639 GB ] [ VIRT MEM :       2.483116 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.399028  s ] [ CPU  TIME:       1.080219  s ] <<<<< ..
+
+* Number of generators                                           2
+
+.. >>>>> [ RES  MEM :       0.018639 GB ] [ VIRT MEM :       2.483116 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.399207  s ] [ CPU  TIME:       1.080826  s ] <<<<< ..
+
+* Number of selectors                                            2
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* PT2 Energy denominator                            -2.870145489646204    
+* Estimated memory/thread (Gb)                      0.2086162567138672E-06
+ n_d =            1                                                        
+
+.. >>>>> [ RES  MEM :       0.022133 GB ] [ VIRT MEM :       2.486488 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.422893  s ] [ CPU  TIME:       1.149212  s ] <<<<< ..
+
+* Number of generators                                           2
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* Saved determinants                                             4
+* Number of unique beta determinants                             2
+* Number of unique alpha determinants                            2
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+
+.. >>>>> [ RES  MEM :       0.022228 GB ] [ VIRT MEM :       2.486488 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.475305  s ] [ CPU  TIME:       1.271378  s ] <<<<< ..
+
+* Number of selectors                                            2
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+* Correlation ratio                                 0.9987430000464740    
+ 
+Summary at N_det =            4
+-----------------------------------
+ 
+# ============ =============================
+                     State      1
+# ============ =============================
+# E              -2.87014549
+# PT2            -0.00001886     0.00000000
+# rPT2           -0.00001886     0.00000000
+#
+# E+PT2          -2.87016435     0.00000000
+# E+rPT2         -2.87016435     0.00000000
+# ============ =============================
+ 
+ N_det             =            4
+ N_states          =            1
+ N_sop             =            3
+ 
+ * State            1
+ < S^2 >         =    0.0000000000000000     
+ E               =   -2.8701454896462040     
+ Variance        =    3.2034280870223122E-005
+ PT norm         =    3.3322489003137488E-003
+ PT2             =   -1.8860140461818276E-005
+ rPT2            =   -1.8859931043355602E-005
+ E+PT2            =   -2.8701643497866658       +/-    0.0000000000000000     
+ E+rPT2           =   -2.8701643495772475       +/-    0.0000000000000000     
+ 
+ -----
+ Energy components
+ =================
+ 
+ State            1
+ ---------
+ 
+ Vnn  =    0.0000000000000000     
+ Ven  =   -6.7368951529562118     
+ Vee  =   0.99594246160423827     
+ Vecp =    0.0000000000000000     
+ T    =    2.8708072017057695     
+ 
+ 
+
+Extrapolated energies
+------------------------
+
+ 
+ State            1
+ 
+ =========== ===================
+ minimum PT2 Extrapolated energy
+ =========== ===================
+    -0.0149         -2.87016446
+ =========== ===================
+ 
+ Diagonalization of H using Lapack
+
+.. >>>>> [ RES  MEM :       0.022232 GB ] [ VIRT MEM :       2.486488 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.522782  s ] [ CPU  TIME:       1.418502  s ] <<<<< ..
+
+* Energy of state    1                              -2.870162138902233    
+* S^2 of state    1                                 0.8666684749742563E-33
+* Saved determinants                                             4
+* Saved determinants                                             4
+* Number of unique beta determinants                             2
+* Number of unique alpha determinants                            2
+ Using pt2-matching weight in selection
+ # PT2 weight    1.00000000    
+ # Total weight    1.00000000    
+
+.. >>>>> [ RES  MEM :       0.022339 GB ] [ VIRT MEM :       2.486488 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.656027  s ] [ CPU  TIME:       1.737920  s ] <<<<< ..
+
+* Number of generators                                           4
+
+.. >>>>> [ RES  MEM :       0.022339 GB ] [ VIRT MEM :       2.486488 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.656203  s ] [ CPU  TIME:       1.738519  s ] <<<<< ..
+
+* Number of selectors                                            4
+* Number of comb teeth                                           1
+* pt2_n_tasks_max                                                1
+* PT2 Energy denominator                            -2.870162138902233    
+* Estimated memory/thread (Gb)                      0.4172325134277344E-06
+ Using pt2-matching weight in selection                                    
+ # PT2 weight   0.500000000    
+ # Total weight   0.500000000    
+ Using pt2-matching weight in selection
+ # PT2 weight   0.250000000    
+ # Total weight   0.250000000    
+ 
+Summary at N_det =            4
+-----------------------------------
+ 
+# ============ =============================
+                     State      1
+# ============ =============================
+# E              -2.87016214
+# PT2             0.00000000     0.00000000
+# rPT2            0.00000000     0.00000000
+#
+# E+PT2          -2.87016214     0.00000000
+# E+rPT2         -2.87016214     0.00000000
+# ============ =============================
+ 
+ N_det             =            4
+ N_states          =            1
+ N_sop             =            3
+ 
+ * State            1
+ < S^2 >         =    8.6666847497425630E-034
+ E               =   -2.8701621389022334     
+ Variance        =    0.0000000000000000     
+ PT norm         =    0.0000000000000000     
+ PT2             =    0.0000000000000000     
+ rPT2            =    0.0000000000000000     
+ E+PT2            =   -2.8701621389022334       +/-    0.0000000000000000     
+ E+rPT2           =   -2.8701621389022334       +/-    0.0000000000000000     
+ 
+ -----
+ Energy components
+ =================
+ 
+ State            1
+ ---------
+ 
+ Vnn  =    0.0000000000000000     
+ Ven  =   -6.7215127296990884     
+ Vee  =   0.99342014740273621     
+ Vecp =    0.0000000000000000     
+ T    =    2.8579304433941188     
+ 
+ 
+
+Extrapolated energies
+------------------------
+
+ 
+ State            1
+ 
+ =========== ===================
+ minimum PT2 Extrapolated energy
+ =========== ===================
+    -0.0000         -2.87016214
+    -0.0149         -2.87016330
+ =========== ===================
+ 
+Wall time: 0:00:03
+
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp edit 
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp run first_test | tee pouet 
+Date: 13/02/2020 16:05:46
+===============
+Quantum Package
+===============
+
+Git Commit: Basis warning
+Git Date  : Tue Feb 4 16:49:16 2020 +0100
+Git SHA1  : 0e29b1c264c0e0db42a5e8ab9eab04f1a0411f67
+EZFIO Dir : He.ezfio
+
+
+Task server running : tcp://134.157.90.112:41279
+.. >>>>> [ IO READ: n_states ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001797 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000429  s ] [ CPU  TIME:       0.005690  s ] <<<<< ..
+
+ * mo_label          Canonical
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001984 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.002823  s ] [ CPU  TIME:       0.006215  s ] <<<<< ..
+
+* Number of determinants                                         1
+* Dimension of the psi arrays                               100000
+.. >>>>> [ IO READ: ao_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002720 GB ] [ VIRT MEM :       0.063038 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.005429  s ] [ CPU  TIME:       0.014116  s ] <<<<< ..
+
+* mo_num                                                         2
+ Read  mo_coef
+* N_int                                                          1
+.. >>>>> [ IO READ: elec_beta_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003036 GB ] [ VIRT MEM :       0.250538 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.012158  s ] [ CPU  TIME:       0.034528  s ] <<<<< ..
+
+.. >>>>> [ IO READ: elec_alpha_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003036 GB ] [ VIRT MEM :       0.250538 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.013121  s ] [ CPU  TIME:       0.036661  s ] <<<<< ..
+
+* Number of determinants                                         4
+ Read psi_coef           4           1
+ Read psi_det
+ N_det =            4
+ 
+ 
+ i           1 -0.99783183462500002     
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           1 -0.99783183462500002     
+.. >>>>> [ IO READ: mo_class ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004627 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.033642  s ] [ CPU  TIME:       0.101240  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004627 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.034849  s ] [ CPU  TIME:       0.104950  s ] <<<<< ..
+
+ MO map initialized:                     6
+.. >>>>> [ IO READ: io_ao_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004627 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.036106  s ] [ CPU  TIME:       0.108823  s ] <<<<< ..
+
+ AO map initialized :                     6
+.. >>>>> [ IO READ: ao_power ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004711 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.039470  s ] [ CPU  TIME:       0.118910  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_prim_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004734 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.043482  s ] [ CPU  TIME:       0.130968  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_expo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004742 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.048536  s ] [ CPU  TIME:       0.145350  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_coef ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004745 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.053990  s ] [ CPU  TIME:       0.162030  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_nucl ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004860 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.057804  s ] [ CPU  TIME:       0.172719  s ] <<<<< ..
+
+ Providing the AO integrals
+.. >>>>> [ IO READ: nucl_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005276 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.065144  s ] [ CPU  TIME:       0.191321  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_label ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005390 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.070702  s ] [ CPU  TIME:       0.192610  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_charge ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005398 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.076722  s ] [ CPU  TIME:       0.193761  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.005402 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.082139  s ] [ CPU  TIME:       0.194805  s ] <<<<< ..
+
+
+Nuclear Coordinates (Angstroms)
+===============================
+
+================ ============ ============ ============ ============
+      Atom          Charge          X            Y            Z 
+================ ============ ============ ============ ============
+He                   2.000000     0.000000     0.000000     0.000000
+================ ============ ============ ============ ============
+
+.. >>>>> [ IO READ: ao_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005402 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.083037  s ] [ CPU  TIME:       0.195181  s ] <<<<< ..
+
+25.00 %  in                     0 seconds 
+ Sorting the map                                                           
+ AO integrals provided:
+  Size of AO map :            1.4686584472656250E-004 MB
+  Number of AO integrals :                    6
+  cpu  time :   3.7794999999999995E-002 s
+  wall time :   3.3199159006471746E-002 s  ( x    1.1384324522386953       )
+ 
+ AO -> MO integrals transformation
+ ---------------------------------
+ 
+.. >>>>> [ IO READ: mo_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005638 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.093140  s ] [ CPU  TIME:       0.216125  s ] <<<<< ..
+
+ Buffers :    3.35693359E-04 MB / core
+ Molecular integrals provided:
+  Size of MO map              1.3732910156250000E-004 MB
+  Number of MO integrals:                     6
+  cpu  time :   1.5782999999999991E-002 s
+  wall time :   5.3662779973819852E-003 s  ( x    2.9411446830931891      )
+.. >>>>> [ IO READ: io_mo_integrals_e_n ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011600 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.099285  s ] [ CPU  TIME:       0.234905  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_e_n ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011600 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.100680  s ] [ CPU  TIME:       0.239225  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011600 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.101549  s ] [ CPU  TIME:       0.241993  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011600 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.102353  s ] [ CPU  TIME:       0.244532  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_one_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011600 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.103193  s ] [ CPU  TIME:       0.247207  s ] <<<<< ..
+
+ Providing the one-electron integrals
+.. >>>>> [ IO READ: do_pseudo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011600 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.104870  s ] [ CPU  TIME:       0.252239  s ] <<<<< ..
+
+ hij =   -2.8551604261559076     
+ |-+--------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ j           2   6.5749347711499997E-002
+ hij =   0.22767049591936808     
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ j           3  -2.0800341458699998E-003
+ hij =    1.1460094317961023E-008
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           4  -2.0800341458699998E-003
+ hij =    1.1460094317961023E-008
+ 
+ 
+ 
+ i           2   6.5749347711499997E-002
+ |-+--------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           1 -0.99783183462500002     
+ hij =   0.22767049591936808     
+ |-+--------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ j           2   6.5749347711499997E-002
+ hij =   0.58888921819729756     
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ j           3  -2.0800341458699998E-003
+ hij =    6.0936931560882257E-002
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           4  -2.0800341458699998E-003
+ hij =    6.0936931560882257E-002
+ 
+ 
+ 
+ i           3  -2.0800341458699998E-003
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           1 -0.99783183462500002     
+ hij =    1.1460094317961023E-008
+ |-+--------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ j           2   6.5749347711499997E-002
+ hij =    6.0936931560882257E-002
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ j           3  -2.0800341458699998E-003
+ hij =   -1.1716373007798246     
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           4  -2.0800341458699998E-003
+ hij =   0.22767049591936808     
+ 
+ 
+ 
+ i           4  -2.0800341458699998E-003
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           1 -0.99783183462500002     
+ hij =    1.1460094317961023E-008
+ |-+--------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ j           2   6.5749347711499997E-002
+ hij =    6.0936931560882257E-002
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ j           3  -2.0800341458699998E-003
+ hij =   0.22767049591936808     
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ j           4  -2.0800341458699998E-003
+ hij =   -1.1716373007798246     
+ 
+ 
+ Hmiltonian matrix
+  -2.85516    0.22767    0.00000    0.00000
+   0.22767    0.58889    0.06094    0.06094
+   0.00000    0.06094   -1.17164    0.22767
+   0.00000    0.06094    0.22767   -1.17164
+ 
+ 
+Wall time: 0:00:01
+
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ qp run first_test | tee pouet 
+Date: 13/02/2020 16:07:04
+===============
+Quantum Package
+===============
+
+Git Commit: Basis warning
+Git Date  : Tue Feb 4 16:49:16 2020 +0100
+Git SHA1  : 0e29b1c264c0e0db42a5e8ab9eab04f1a0411f67
+EZFIO Dir : He.ezfio
+
+
+Task server running : tcp://134.157.90.112:41279
+.. >>>>> [ IO READ: n_states ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001801 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000819  s ] [ CPU  TIME:       0.014698  s ] <<<<< ..
+
+ * mo_label          Canonical
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.001987 GB ] [ VIRT MEM :       0.038841 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.004098  s ] [ CPU  TIME:       0.015804  s ] <<<<< ..
+
+* Number of determinants                                         1
+* Dimension of the psi arrays                               100000
+.. >>>>> [ IO READ: ao_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002724 GB ] [ VIRT MEM :       0.063038 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.009452  s ] [ CPU  TIME:       0.033358  s ] <<<<< ..
+
+* mo_num                                                         2
+ Read  mo_coef
+* N_int                                                          1
+.. >>>>> [ IO READ: elec_beta_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003044 GB ] [ VIRT MEM :       0.250538 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.028448  s ] [ CPU  TIME:       0.085812  s ] <<<<< ..
+
+.. >>>>> [ IO READ: elec_alpha_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003044 GB ] [ VIRT MEM :       0.250538 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.031631  s ] [ CPU  TIME:       0.094610  s ] <<<<< ..
+
+* Number of determinants                                         4
+ Read psi_coef           4           1
+ Read psi_det
+ N_det =            4
+ 
+ 
+ i           1 -0.99783183462500002     
+ |+---------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+.. >>>>> [ IO READ: mo_class ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004631 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.059153  s ] [ CPU  TIME:       0.182698  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004631 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.062046  s ] [ CPU  TIME:       0.191726  s ] <<<<< ..
+
+ MO map initialized:                     6
+.. >>>>> [ IO READ: io_ao_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004631 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.063686  s ] [ CPU  TIME:       0.196758  s ] <<<<< ..
+
+ AO map initialized :                     6
+.. >>>>> [ IO READ: ao_power ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004723 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.074835  s ] [ CPU  TIME:       0.229508  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_prim_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004742 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.079678  s ] [ CPU  TIME:       0.244095  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_expo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004753 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.084295  s ] [ CPU  TIME:       0.258146  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_coef ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004753 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.090715  s ] [ CPU  TIME:       0.277295  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_nucl ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.004875 GB ] [ VIRT MEM :       0.252029 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.097577  s ] [ CPU  TIME:       0.298326  s ] <<<<< ..
+
+ Providing the AO integrals
+.. >>>>> [ IO READ: nucl_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.007240 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.106137  s ] [ CPU  TIME:       0.318383  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_label ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.007355 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.111455  s ] [ CPU  TIME:       0.319156  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_charge ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.007362 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.117755  s ] [ CPU  TIME:       0.319726  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.007370 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.125738  s ] [ CPU  TIME:       0.321148  s ] <<<<< ..
+
+
+Nuclear Coordinates (Angstroms)
+===============================
+
+================ ============ ============ ============ ============
+      Atom          Charge          X            Y            Z 
+================ ============ ============ ============ ============
+He                   2.000000     0.000000     0.000000     0.000000
+================ ============ ============ ============ ============
+
+.. >>>>> [ IO READ: ao_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.007370 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.127349  s ] [ CPU  TIME:       0.321746  s ] <<<<< ..
+
+25.00 %  in                     0 seconds 
+ Sorting the map                                                           
+ AO integrals provided:
+  Size of AO map :            1.4686584472656250E-004 MB
+  Number of AO integrals :                    6
+  cpu  time :   2.4756000000000000E-002 s
+  wall time :   3.1034761996124871E-002 s  ( x   0.79768615603016824       )
+ 
+ AO -> MO integrals transformation
+ ---------------------------------
+ 
+.. >>>>> [ IO READ: mo_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005657 GB ] [ VIRT MEM :       0.463097 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.129693  s ] [ CPU  TIME:       0.323528  s ] <<<<< ..
+
+ Buffers :    3.35693359E-04 MB / core
+ Molecular integrals provided:
+  Size of MO map              1.3732910156250000E-004 MB
+  Number of MO integrals:                     6
+  cpu  time :   1.1505000000000043E-002 s
+  wall time :   5.6333060056203976E-003 s  ( x    2.0423175997400826      )
+.. >>>>> [ IO READ: io_mo_integrals_e_n ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011642 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.136624  s ] [ CPU  TIME:       0.341902  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_e_n ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011642 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.137965  s ] [ CPU  TIME:       0.346032  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011642 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.138877  s ] [ CPU  TIME:       0.348873  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011642 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.139749  s ] [ CPU  TIME:       0.351568  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_one_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011642 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.140761  s ] [ CPU  TIME:       0.354731  s ] <<<<< ..
+
+ Providing the one-electron integrals
+.. >>>>> [ IO READ: do_pseudo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.011642 GB ] [ VIRT MEM :       2.463100 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.142208  s ] [ CPU  TIME:       0.359069  s ] <<<<< ..
+
+ 
+ 
+ 
+ i           2   6.5749347711499997E-002
+ |-+--------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ 
+ 
+ 
+ i           3  -2.0800341458699998E-003
+ |+---------------------------------------------------------------|
+ |-+--------------------------------------------------------------|
+ 
+ 
+ 
+ i           4  -2.0800341458699998E-003
+ |-+--------------------------------------------------------------|
+ |+---------------------------------------------------------------|
+ 
+ 
+ Hmiltonian matrix
+  -2.85516    0.22767    0.00000    0.00000
+   0.22767    0.58889    0.06094    0.06094
+   0.00000    0.06094   -1.17164    0.22767
+   0.00000    0.06094    0.22767   -1.17164
+ 
+ 
+Wall time: 0:00:02
+
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ python
+Python 2.7.5 (default, Aug  7 2019, 00:51:29) 
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-39)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 0.22767/(-2.85516 - 0.58889)
+-0.06610531205992944
+>>> 0.22767/(-2.85516 - 0.58889) + 6.5749347711499997E-002 
+-0.00035596434842943836
+>>> 
+|He.ezfio>
+dtraore@trudon:~/He_1202 $ 
+

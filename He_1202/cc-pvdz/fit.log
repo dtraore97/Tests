@@ -1,0 +1,106 @@
+
+
+*******************************************************************************
+Mon Feb 24 11:26:19 2020
+
+
+FIT:    data read from 'fort.36' u 1:2
+        format = x:z
+        #datapoints = 101
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x**2 + b*x + c
+BREAK: Need via and either parameter list or file
+
+*******************************************************************************
+Mon Feb 24 11:26:50 2020
+
+
+FIT:    data read from 'fort.36' u 1:2
+        format = x:z
+        #datapoints = 101
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x**2 + b*x + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.6730381457e+05   0.00e+00  2.62e+01    1.000000e+00   1.000000e+00   1.000000e+00
+   5 3.7885109915e-04  -3.14e-04  2.62e-04   -1.022892e-04   1.749463e-03  -7.389689e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.000378851
+rel. change during last iteration : -3.14071e-10
+
+degrees of freedom    (FIT_NDF)                        : 98
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00196617
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.86583e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.000102289     +/- 2.574e-05    (25.16%)
+b               = 0.00174946       +/- 0.000266     (15.2%)
+c               = -0.00738969      +/- 0.0005755    (7.788%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.968  1.000 
+c               0.738 -0.861  1.000 
+
+
+*******************************************************************************
+Mon Feb 24 11:28:39 2020
+
+
+FIT:    data read from 'fort.36' u 1:2
+        format = x:z
+        #datapoints = 101
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = d*x**3 + a*x**2 + b*x + c
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Mon Feb 24 11:28:42 2020
+
+
+FIT:    data read from 'fort.36' u 1:2
+        format = x:z
+        #datapoints = 101
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = d*x**3 + a*x**2 + b*x + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.4790716208e+07   0.00e+00  1.91e+02   -1.022892e-04   1.749463e-03  -7.389689e-03   1.000000e+00
+   9 3.5033748014e-04  -9.15e-07  1.91e-07    3.073201e-04   1.191633e-04  -6.065012e-03  -2.730728e-05
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0.000350337
+rel. change during last iteration : -9.14649e-13
+
+degrees of freedom    (FIT_NDF)                        : 97
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00190045
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.61173e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.00030732       +/- 0.0001479    (48.12%)
+b               = 0.000119163      +/- 0.0006346    (532.6%)
+c               = -0.00606501      +/- 0.0007292    (12.02%)
+d               = -2.73073e-05     +/- 9.719e-06    (35.59%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -0.967  1.000 
+c               0.732 -0.857  1.000 
+d              -0.986  0.914 -0.647  1.000 
