@@ -1,0 +1,3 @@
+#PBE-UEG
+#basis     func      pt2_max     pt2        z_dipole_moment
+3-21g pbe_ueg 0.000001 -2.2204460492503131E-016 0.47109321221174527

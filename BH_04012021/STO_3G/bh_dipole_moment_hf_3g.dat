@@ -1,0 +1,4 @@
+# system = BH
+# dipole moment from HF density
+# basis  z_dipole_moment
+sto-3g -0.56837514347053286

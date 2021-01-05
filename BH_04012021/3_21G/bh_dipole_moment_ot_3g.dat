@@ -1,0 +1,3 @@
+#SU-PBE-OT
+#basis     func      pt2_max     pt2        z_dipole_moment
+3-21g su_pbe_ot 0.000001 0.0000000000000000 0.48498310936224054
