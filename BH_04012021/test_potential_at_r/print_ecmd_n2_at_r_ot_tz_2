@@ -1,0 +1,102 @@
+Date: 12/01/2021 15:40:24
+===============
+Quantum Package
+===============
+
+Git Commit: merged alors
+Git Date  : Sun Nov 8 18:27:57 2020 +0100
+Git SHA1  : 2a6581b5fa3146ed2bf8a35d8a8dcfa80a12836f
+EZFIO Dir : BH.ezfio
+
+
+Task server running : tcp://192.168.100.145:41279
+.. >>>>> [ IO READ: n_states ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002312 GB ] [ VIRT MEM :       0.044300 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000730  s ] [ CPU  TIME:       0.036069  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002312 GB ] [ VIRT MEM :       0.044300 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.003019  s ] [ CPU  TIME:       0.036756  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002533 GB ] [ VIRT MEM :       0.044300 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.005499  s ] [ CPU  TIME:       0.037473  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_label ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002651 GB ] [ VIRT MEM :       0.136154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.014758  s ] [ CPU  TIME:       0.080932  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_charge ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002834 GB ] [ VIRT MEM :       0.136154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.021052  s ] [ CPU  TIME:       0.176006  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.002857 GB ] [ VIRT MEM :       0.386154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.027487  s ] [ CPU  TIME:       0.273037  s ] <<<<< ..
+
+
+Nuclear Coordinates (Angstroms)
+===============================
+
+================ ============ ============ ============ ============
+      Atom          Charge          X            Y            Z 
+================ ============ ============ ============ ============
+B                    5.000000     0.000000     0.000000     0.000000
+H                    1.000000     0.000000     0.000000     1.232400
+================ ============ ============ ============ ============
+
+Minimal interatomic distance found:       1.2324 Angstrom
+.. >>>>> [ IO READ: io_ao_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002857 GB ] [ VIRT MEM :       0.386154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.030578  s ] [ CPU  TIME:       0.320177  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_n_e ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002857 GB ] [ VIRT MEM :       0.386154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.032119  s ] [ CPU  TIME:       0.343760  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002857 GB ] [ VIRT MEM :       0.386154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.034724  s ] [ CPU  TIME:       0.383358  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_integrals_n_e ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002857 GB ] [ VIRT MEM :       0.386154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.036144  s ] [ CPU  TIME:       0.405096  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_one_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002857 GB ] [ VIRT MEM :       0.386154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.037683  s ] [ CPU  TIME:       0.428620  s ] <<<<< ..
+
+.. >>>>> [ IO READ: basis_cor_func ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002857 GB ] [ VIRT MEM :       0.386154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.040276  s ] [ CPU  TIME:       0.467975  s ] <<<<< ..
+
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002857 GB ] [ VIRT MEM :       0.386154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.041706  s ] [ CPU  TIME:       0.489875  s ] <<<<< ..
+
+ #r(3)  ecmd_n2   decdrho
+* mo_num                                                        69
+.. >>>>> [ IO READ: mo_class ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.003021 GB ] [ VIRT MEM :       1.011154 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.049838  s ] [ CPU  TIME:       0.606847  s ] <<<<< ..
+
+ MO map initialized:               2917320
+* Number of inactive MOs                                         0
+ Inactive MOs:
+
+Program exited with code 255.
+Wall time: 0:00:02
+
