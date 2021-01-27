@@ -1,0 +1,123 @@
+Date: 15/12/2020 13:52:22
+===============
+Quantum Package
+===============
+
+Git Commit: merged alors
+Git Date  : Sun Nov 8 18:27:57 2020 +0100
+Git SHA1  : 2a6581b5fa3146ed2bf8a35d8a8dcfa80a12836f
+EZFIO Dir : BH.ezfio
+
+
+Task server running : tcp://192.168.100.251:41279
+.. >>>>> [ IO READ: read_wf ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002312 GB ] [ VIRT MEM :       0.044456 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000746  s ] [ CPU  TIME:       0.019841  s ] <<<<< ..
+
+.. >>>>> [ IO READ: n_states ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002556 GB ] [ VIRT MEM :       0.044456 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.002204  s ] [ CPU  TIME:       0.020518  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002556 GB ] [ VIRT MEM :       0.044456 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.004192  s ] [ CPU  TIME:       0.021184  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_charge ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002720 GB ] [ VIRT MEM :       0.136311 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.010340  s ] [ CPU  TIME:       0.054400  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_label ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002903 GB ] [ VIRT MEM :       0.136311 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.015603  s ] [ CPU  TIME:       0.134024  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.002907 GB ] [ VIRT MEM :       0.386311 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.021045  s ] [ CPU  TIME:       0.216142  s ] <<<<< ..
+
+
+Nuclear Coordinates (Angstroms)
+===============================
+
+================ ============ ============ ============ ============
+      Atom          Charge          X            Y            Z 
+================ ============ ============ ============ ============
+B                    5.000000     0.000000     0.000000     0.000000
+H                    1.000000     0.000000     0.000000     1.232400
+================ ============ ============ ============ ============
+
+Minimal interatomic distance found:       1.2324 Angstrom
+ * mo_label          Natural
+* Number of determinants                                     59753
+* mo_num                                                        32
+* N_int                                                          1
+.. >>>>> [ IO READ: elec_beta_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002907 GB ] [ VIRT MEM :       0.386311 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.027548  s ] [ CPU  TIME:       0.314791  s ] <<<<< ..
+
+.. >>>>> [ IO READ: elec_alpha_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002907 GB ] [ VIRT MEM :       0.386311 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.028843  s ] [ CPU  TIME:       0.334647  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.002907 GB ] [ VIRT MEM :       0.386311 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.031009  s ] [ CPU  TIME:       0.367595  s ] <<<<< ..
+
+ Read  mo_coef
+* Dimension of the psi arrays                               100000
+ Read psi_det
+* Number of unique beta determinants                           465
+* Number of unique alpha determinants                          465
+ Read psi_coef       59753           1
+.. >>>>> [ IO READ: ao_prim_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.015034 GB ] [ VIRT MEM :       1.025055 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.613576  s ] [ CPU  TIME:       7.846589  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_normalized ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.015034 GB ] [ VIRT MEM :       1.025055 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.615321  s ] [ CPU  TIME:       7.873269  s ] <<<<< ..
+
+.. >>>>> [ IO READ: primitives_normalized ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.015034 GB ] [ VIRT MEM :       1.025055 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.616747  s ] [ CPU  TIME:       7.895088  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_coef ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.015060 GB ] [ VIRT MEM :       1.025055 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.622175  s ] [ CPU  TIME:       7.976906  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_power ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.015060 GB ] [ VIRT MEM :       1.025055 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.627047  s ] [ CPU  TIME:       8.050442  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_expo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.015060 GB ] [ VIRT MEM :       1.025055 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.632672  s ] [ CPU  TIME:       8.135103  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_nucl ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.015163 GB ] [ VIRT MEM :       1.025055 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.637236  s ] [ CPU  TIME:       8.204315  s ] <<<<< ..
+
+ electron part for z_dipole =   -1.7910013161425364     
+ nuclei   part for z_dipole =    2.3288984759139821     
+ Time for the z_dipole_moment integration :   8.2800000000027296E-004
+ 
+ 
+ ****************************************
+ z_dipole_moment                  =   0.53789715977144570     
+ ****************************************
+Wall time: 0:00:02
+
